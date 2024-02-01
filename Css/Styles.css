@@ -1,0 +1,100 @@
+:root {
+  --cor-da-letra: white;
+  --tamanho-da-letra: 22px;
+  --tamanho-da-letra-smartphone: 16px;
+  --fonte-da-letras: Georgia, 'Times New Roman', Times, serif;
+  --tamanho-de-titulo:45px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.nav-link {
+  color: var(--cor-da-letra);
+  font-size: var(--tamanho-da-letra);
+  font-family: var(--fonte-da-letras) !important;
+  margin: 30px 40px 0px 0px;
+  
+
+}
+.nav-link:houver {
+  color: royalblue;
+}
+.text-titulo{
+    text-align: center;
+    margin-top: 120px;
+    font-family: var(--fonte-da-letras);
+    font-size: var(--tamanho-de-titulo);
+    color: var(--cor-da-letra);
+    
+}
+.text-titulo::after{
+    content: "";
+    width: 200px;
+    height: 4px;
+    background: currentColor;
+    display: block;
+    margin: 10px auto;
+    
+}
+
+.img-card-menu {
+  margin: 0px 580px 10px -100px;
+  width: 20%;
+}
+
+.img-insta {
+  margin: 12px 10px 0px 0px;
+}
+
+.img-Facebook {
+  margin: 12px 10px 0px 0px;
+}
+
+.img-whatsapp {
+  margin: 12px 10px 0px 0px;
+}
+
+.logos {
+  margin: 30px 20px 0px 0px;
+}
+.container-box-center{
+    width: 70%;
+    border-radius: 16px;
+    margin: 280px 190px 0px 30px;
+    font-size: var(--tamanho-da-letra);
+    background: #edd1ae;
+    
+}
+.card-img-top{
+    width: 350px;
+    
+}
+
+.second-section{
+    scroll-snap-align: start;
+}
+.gradient {
+  width: 100vw;
+  height: 200vh;
+  background: linear-gradient(#95421a, #edd1ae, #c68054);
+  background-size: 100%;
+  animation: gradient-animation 6s ease infinite;
+}
+
+@keyframes gradient-animation {
+  20% {
+    background-position: 5% 70%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  80% {
+    background-position: 3% 50%;
+  }
+}
