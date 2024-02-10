@@ -7,7 +7,7 @@
   --tamanho-da-letra-smartphone: 16px;
   --fonte-da-letras:'Open Sans', 'sans-serif';
   --tamanho-de-titulo: 45px;
-  --cor-da-barra-menu:#5f5d5c;
+  --cor-da-barra-menu:#ffffff;
 
   
 }
@@ -39,12 +39,12 @@
 }
 
 .nav-link:hover {
-  color: rgb(215, 213, 236) !important;
+  color:#E52D27 !important;
  
   
 }
 .nav-item{
-  margin: 0px -180px 10px 355px;
+  margin: 0px -180px 0px 355px;
   align-items: center;
 }
 
@@ -62,12 +62,20 @@
   display: block;
   margin: 10px auto;
 }
+.btn{
+  width: 175px;
+  border-radius: 20px;
+  background-color: #ffffff;
+  color: black;
+  border: 2px solid  black;
+  margin-top: 10px;
+}
 .imagem-slides{
   width: 25%;
  margin: 100px 0px 0px 1050px;
 }
 .img-card-menu {
-  margin: 0px 580px 10px -100px;
+  margin: 0px 0px 0px -100px;
   width: 20%;
 }
 
@@ -85,29 +93,17 @@
 
 .logos-menu {
   /* insta,whatsapp,facebook   */
-  margin: 0px 20px 0px 580px;
+  margin: 0px 0px 0px 500px;
 }
 .logo-Guta {
   width: 220px;
-}
-.container-box-center {
-  width: 70%;
-  border-radius: 16px;
-  margin: 280px 190px 0px 30px;
-  font-size: var(--tamanho-da-letra);
-  background: #edd1ae;
-}
-.card-img-top {
-  width: 350px;
+  margin-left: 50px;
 }
 
-.second-section {
-  scroll-snap-align: start;
-}
 .gradient {
   width: 100vw;
   height: 200vh;
-  background: linear-gradient(#666564, #edd1ae, #c68054);
+  background: linear-gradient(#ffffff, #edd1ae, #f1f0ef);
   background-size: 100%;
   animation: gradient-animation 6s ease infinite;
   padding: 40px 4%;
@@ -131,8 +127,8 @@
 @media (min-width:350px) and (max-width:500px) {
   
   .navbar{
-    width: 109%;
-    margin: -40px 100px 0px -19px;
+    width: 430px;
+    margin: -40px 100px 0px -20px;
   }
   .nav-item{
     margin: 0px 0px 10px 0px;
@@ -146,12 +142,27 @@
     font-family: var(--fonte-da-letras) !important;
     
   }
-
+  .collapse{
+    width: 135px;
+  }
+    
   .logo-Guta {
-    width: 80px;
+    width: 180px;
   }
   .imagem-slides{
     width: 50%;
    margin: 50px 0px 0px 190px;
+  }
+  .btn{
+    width: 175px;
+    border-radius: 20px;
+    background-color: #ffffff;
+    color: black;
+    border: 2px solid  black;
+    margin-top: 10px;
+  }
+  .logos-menu {
+    /* insta,whatsapp,facebook   */
+    margin: 30px 0px 0px 0px;
   }
 }
