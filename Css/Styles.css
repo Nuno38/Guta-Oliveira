@@ -20,7 +20,8 @@
 
 .navbar{
   width: 110%;
-  margin: -40px 0px 0px -100px;
+  margin: 20px 0px 0px -100px;
+  
 }
 .nav-link > li {
  
@@ -62,6 +63,24 @@
   display: block;
   margin: 10px auto;
 }
+.ultimos-post{
+  background-color: #edd1ae;
+}
+.card-text{
+  font-family: "GT Sectra Fine", sans-serif !important;
+}
+.link-artigos{
+  margin: -40px 0px 0px 1550px;
+  text-decoration:  none;
+  color: black !important;
+  
+}
+.link-artigos > a{
+  margin: -40px 0px 0px 0px;
+  text-decoration:  none;
+  color: black !important;
+  
+}
 .btn{
   width: 175px;
   border-radius: 20px;
@@ -70,15 +89,16 @@
   border: 2px solid  black;
   margin-top: 10px;
 }
-.imagem-slides{
-  width: 25%;
- margin: 100px 0px 0px 1050px;
+.container{
+   margin-top: 50px;
 }
-.img-card-menu {
-  margin: 0px 0px 0px -100px;
-  width: 20%;
+.img-card{
+  width: 100%;
+  height: 80%;
 }
-
+.img-dicas{
+  width: 550px;
+}
 .img-insta {
   margin: 12px 10px 0px 0px;
 }
@@ -97,38 +117,17 @@
 }
 .logo-Guta {
   width: 220px;
-  margin-left: 50px;
+  margin-left: 100px;
 }
 
-.gradient {
-  width: 100vw;
-  height: 200vh;
-  background: linear-gradient(#ffffff, #edd1ae, #f1f0ef);
-  background-size: 100%;
-  animation: gradient-animation 6s ease infinite;
-  padding: 40px 4%;
-} /*  --- Header --- */
-
-@keyframes gradient-animation {
-  20% {
-    background-position: 5% 70%;
-  }
-
-  50% {
-    background-position: 100% 50%;
-  }
-
-  80% {
-    background-position: 3% 50%;
-  }
-}
+ /*  --- Header --- */
 
 
 @media (min-width:350px) and (max-width:500px) {
   
   .navbar{
     width: 430px;
-    margin: -40px 100px 0px -20px;
+    margin: 0px 100px 0px -10px;
   }
   .nav-item{
     margin: 0px 0px 10px 0px;
@@ -148,10 +147,14 @@
     
   .logo-Guta {
     width: 180px;
+    margin-right: 20px;
   }
   .imagem-slides{
     width: 50%;
    margin: 50px 0px 0px 190px;
+  }
+  .link-artigos{
+    margin: -40px 0px 0px 245px;
   }
   .btn{
     width: 175px;
