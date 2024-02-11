@@ -127,10 +127,10 @@
   
   .navbar{
     width: 430px;
-    margin: 30px 100px 0px -10px;
+    margin: 40px 100px 0px -10px;
   }
   .nav-item{
-    margin: 30px 0px 10px 0px;
+    margin: 0px 0px 10px 0px;
     align-items: center;
   }
 
