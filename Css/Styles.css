@@ -169,3 +169,187 @@
     margin: 30px 0px 0px 0px;
   }
 }
+@media (min-width:700px) and (max-width:980px){
+
+   .navbar{
+    width: 430px;
+    margin: 20px 0px 0px 0px;
+  }
+  .nav-item{
+    margin: 0px 0px 10px 0px;
+    align-items: center;
+  }
+
+  .nav-link > li {
+ 
+    color: var(--cor-da-letra);
+    font-size: var(--tamanho-da-letra-smartphone);
+    font-family: var(--fonte-da-letras) !important;
+    
+  }
+  .collapse{
+    width: 135px;
+  }
+    
+  .logo-Guta {
+    width: 180px;
+    margin-right: -300px;
+  }
+  .imagem-slides{
+    width: 50%;
+   margin: 50px 0px 0px 190px;
+  }
+  .link-artigos{
+    margin: -40px 0px 0px 245px;
+  }
+  .btn{
+    width: 175px;
+    border-radius: 20px;
+    background-color: #ffffff;
+    color: black;
+    border: 2px solid  black;
+    margin-top: 10px;
+  }
+  .logos-menu {
+    /* insta,whatsapp,facebook   */
+    margin: 30px 0px 0px 0px;
+  }
+}
+
+@media (min-width:900px) and (max-width:1200px){
+
+  .navbar{
+  
+   margin: 0px 0px 0px 0px;
+ }
+ .nav-item{
+   margin: 0px 0px 0px 50px;
+   align-items: center;
+ }
+
+ .nav-link > li {
+
+   color: var(--cor-da-letra);
+   font-size: var(--tamanho-da-letra-smartphone);
+   font-family: var(--fonte-da-letras) !important;
+   
+ }
+ .collapse{
+   width: 135px;
+ }
+   
+ .logo-Guta {
+   width: 200px;
+   margin-left: -5px;
+   margin-top: -10px;
+
+ }
+ 
+ .link-artigos{
+   margin: -40px 0px 0px 800px;
+ }
+ .btn{
+   width: 175px;
+   border-radius: 20px;
+   background-color: #ffffff;
+   color: black;
+   border: 2px solid  black;
+   margin-top: 10px;
+ }
+ .logos-menu {
+   /* insta,whatsapp,facebook   */
+   margin: 0px 10px 0px 22px;
+ }
+}
+
+@media (min-width:700px) and (max-width:980px){
+
+  .navbar{
+   width: 430px;
+   margin: 20px 0px 0px 0px;
+ }
+ .nav-item{
+   margin: 0px 0px 10px 0px;
+   align-items: center;
+ }
+
+ .nav-link > li {
+
+   color: var(--cor-da-letra);
+   font-size: var(--tamanho-da-letra-smartphone);
+   font-family: var(--fonte-da-letras) !important;
+   
+ }
+ .collapse{
+   width: 135px;
+ }
+   
+ .logo-Guta {
+   width: 180px;
+   margin-right: -300px;
+ }
+ .imagem-slides{
+   width: 50%;
+  margin: 50px 0px 0px 190px;
+ }
+ .link-artigos{
+   margin: -40px 0px 0px 245px;
+ }
+ .btn{
+   width: 175px;
+   border-radius: 20px;
+   background-color: #ffffff;
+   color: black;
+   border: 2px solid  black;
+   margin-top: 10px;
+ }
+ .logos-menu {
+   /* insta,whatsapp,facebook   */
+   margin: 30px 0px 0px 0px;
+ }
+}
+
+@media (min-width:1200px) and (max-width:1500px){
+
+ .navbar{
+ 
+  
+}
+.nav-item{
+  margin: 0px 0px 0px 50px;
+  align-items: center;
+}
+
+.nav-link > li {
+
+  color: var(--cor-da-letra);
+  font-size: var(--tamanho-da-letra-smartphone);
+  font-family: var(--fonte-da-letras) !important;
+  
+}
+.collapse{
+  width: 135px;
+}
+  
+.logo-Guta {
+  width: 200px;
+  margin: -10px 80px 0px 95px ;
+
+}
+
+.link-artigos{
+  margin: -40px 0px 0px 800px;
+}
+.btn{
+  width: 175px;
+  border-radius: 20px;
+  background-color: #ffffff;
+  color: black;
+  border: 2px solid  black;
+  margin-top: 10px;
+}
+.logos-menu {
+  /* insta,whatsapp,facebook   */
+  margin: 0px 0px 0px 210px;
+}
+}
