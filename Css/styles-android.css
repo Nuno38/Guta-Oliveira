@@ -1,0 +1,222 @@
+:root {
+  --Cor-de-fundo: #fff;
+  --tamanho-da-letra: 22px;
+  --tamanho-da-letra-smartphone: 16px;
+  --fonte-da-letras: "Ogg", serif;
+  --tamanho-de-titulo: 45px;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 900;
+}
+.navbar {
+  background: #ffffff !important;
+}
+.nav-item > a {
+  align-items: end;
+  font-family: "Ogg", serif;
+  font-size: 24px;
+}
+.text-menu {
+  margin: 0px 0px 0px 250px;
+}
+.nav-item {
+  margin: 0px 14px 0px 0px;
+}
+.ultimos-post {
+  background-color: #f4f4f4;
+  padding: 92px 0 114px;
+}
+.card-text {
+  font-family: "EB Garamond", serif !important;
+}
+.title {
+  color: #070707;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 26px;
+  font-weight: normal;
+  margin-top: -80px;
+  font-family: "Source Serif 4", serif;
+  margin-left: 50px;
+}
+.link-artigos {
+  margin: -50px 10px 0px 1650px;
+  text-decoration: none;
+  text-decoration: none;
+}
+.link-artigos > a {
+  margin: 0px 0px 0px 100px;
+  text-decoration: none;
+  font-family: "Source Serif 4", serif;
+  
+}
+.link-tendencias > a {
+  text-decoration: none;
+}
+.text-center {
+  background-color: #EAE0DB;
+  height: 250px;
+  margin-top: -102px;
+  
+}
+.texto-contato {
+  margin: 54px 0px 0px 50px;
+  text-align: left;
+  align-items: center;
+  color: #8e1e1e;
+  font-size: 83px;
+  font-family: "Ogg", serif;
+  line-height: 90%;
+  padding-block: 1px;
+  padding-inline: 2px;
+}
+.form{
+  padding-block: 1px;
+  padding-inline: 2px;
+  border-width: 1px;
+  border-style: inset;
+  font-size: 12px;
+  margin-top: 50px;
+  margin-left: 250px;
+  width: 100%;
+  height: 60px;
+  
+}
+/* imagens */
+.logo-Guta {
+  width: 180px;
+  margin: 0px 250px 0px 0px;
+}
+.logos-menu {
+  text-align: center;
+  list-style: none;
+}
+.seta{
+  -webkit-transition: all 1s ease; /* Safari and Chrome */
+  -moz-transition: all 1s ease; /* Firefox */
+  -ms-transition: all 1s ease; /* IE 9 */
+  -o-transition: all 1s ease; /* Opera */
+  transition: all 1s ease;
+}
+.seta:hover{
+  -webkit-transform: scale(1.26); /* Safari and Chrome */
+  -moz-transform: scale(1.26); /* Firefox */
+  -ms-transform: scale(1.26); /* IE 9 */
+  -o-transform: scale(1.26); /* Opera */
+  transform: scale(1.26);
+}
+.img {
+  -webkit-transition: all 1s ease; /* Safari and Chrome */
+  -moz-transition: all 1s ease; /* Firefox */
+  -ms-transition: all 1s ease; /* IE 9 */
+  -o-transition: all 1s ease; /* Opera */
+  transition: all 1s ease;
+}
+.img:hover {
+  -webkit-transform: scale(1.26); /* Safari and Chrome */
+  -moz-transform: scale(1.26); /* Firefox */
+  -ms-transform: scale(1.26); /* IE 9 */
+  -o-transform: scale(1.26); /* Opera */
+  transform: scale(1.26);
+}
+
+@media (min-width: 360px) and (max-width: 500px) {
+
+  .navbar {
+    background-color: #fff;
+  }
+  .navbar-toggler{
+    margin-top:-40px;
+  }
+  .text-menu {
+    margin: 0px 0px 0px 5px;
+  }
+  
+  .card-text {
+    font-family: "EB Garamond", serif !important;
+  }
+  .title {
+    color: #070707;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-size: 26px;
+    font-weight: normal;
+    margin-top: -100px;
+    font-family: "Source Serif 4", serif;
+    
+  }
+  .link-artigos {
+    margin: -40px 10px 0px 150px;
+    text-decoration: none;
+    text-decoration: none;
+  }
+  .link-artigos > a {
+    margin: 0px 0px 0px 100px;
+    text-decoration: none;
+    font-family: "Source Serif 4", serif;
+    
+  }
+  .link-tendencias > a {
+    text-decoration: none;
+  }
+  .ultimos-post {
+    background-color: #f4f4f4;
+    
+  }
+  .text-center {
+    background-color: #EAE0DB;
+    
+    margin-top: -102px;
+    
+  }
+  .texto-contato {
+    margin: 34px 0px 0px 5px;
+    text-align: left;
+    align-items: center;
+    color: #8e1e1e;
+    font-size: 63px;
+    font-family: "Ogg", serif;
+    
+  }
+  .form{
+    padding-block: 1px;
+    padding-inline: 2px;
+    border-width: 1px;
+    border-style: inset;
+    font-size: 12px;
+    margin-top: 10px;
+    margin-left: -10px;
+    width: 250px;
+    height: 30px;
+    
+  }
+  /* imagens */
+  .logo-Guta {
+    width: 180px;
+    margin-left: 160px !important;
+    
+  }
+  .logos-menu {
+    text-align: center;
+    list-style: none;
+    margin-left: -188px;
+  }
+}
+
+@media (min-width: 550px) and (max-width: 900px) {
+  .navbar {
+    width: 80%;
+    margin: -40px 0px 0px 300px;
+  }
+
+  .logo-Guta {
+    width: 80px;
+  }
+}
