@@ -26,14 +26,15 @@ h6 {
   font-size: 24px;
 }
 .text-menu {
-  margin: 0px 0px 0px 250px;
+  margin: 0px 0px 0px 500px;
 }
 .nav-item {
   margin: 0px 14px 0px 0px;
 }
 .ultimos-post {
   background-color: #f4f4f4;
-  padding: 92px 0 114px;
+  padding: 95px 0;
+ 
 }
 .card-text {
   font-family: "EB Garamond", serif !important;
@@ -47,25 +48,25 @@ h6 {
   font-family: "Source Serif 4", serif;
   margin-left: 50px;
 }
-.link-artigos {
-  margin: -50px 10px 0px 1650px;
+.link-tendencias {
   text-decoration: none;
+}
+.link-artigos {
+  margin: -50px 200px 0px 1650px;
   text-decoration: none;
 }
 .link-artigos > a {
   margin: 0px 0px 0px 100px;
   text-decoration: none;
   font-family: "Source Serif 4", serif;
-  
 }
 .link-tendencias > a {
   text-decoration: none;
 }
 .text-center {
-  background-color: #EAE0DB;
+  background-color: #eae0db;
   height: 250px;
   margin-top: -102px;
-  
 }
 .texto-contato {
   margin: 54px 0px 0px 50px;
@@ -78,7 +79,7 @@ h6 {
   padding-block: 1px;
   padding-inline: 2px;
 }
-.form{
+.form {
   padding-block: 1px;
   padding-inline: 2px;
   border-width: 1px;
@@ -88,25 +89,23 @@ h6 {
   margin-left: 250px;
   width: 100%;
   height: 60px;
-  
 }
 /* imagens */
 .logo-Guta {
   width: 180px;
-  margin: 0px 250px 0px 0px;
 }
 .logos-menu {
   text-align: center;
   list-style: none;
 }
-.seta{
+.seta {
   -webkit-transition: all 1s ease; /* Safari and Chrome */
   -moz-transition: all 1s ease; /* Firefox */
   -ms-transition: all 1s ease; /* IE 9 */
   -o-transition: all 1s ease; /* Opera */
   transition: all 1s ease;
 }
-.seta:hover{
+.seta:hover {
   -webkit-transform: scale(1.26); /* Safari and Chrome */
   -moz-transform: scale(1.26); /* Firefox */
   -ms-transform: scale(1.26); /* IE 9 */
@@ -129,17 +128,20 @@ h6 {
 }
 
 @media (min-width: 360px) and (max-width: 500px) {
-
+  .boby {
+    margin: 0px;
+    padding: 0px;
+  }
   .navbar {
     background-color: #fff;
   }
-  .navbar-toggler{
-    margin-top:-40px;
+  .navbar-toggler {
+    margin-top: -40px;
   }
   .text-menu {
     margin: 0px 0px 0px 5px;
   }
-  
+
   .card-text {
     font-family: "EB Garamond", serif !important;
   }
@@ -148,22 +150,21 @@ h6 {
     font-family: "IBM Plex Sans", sans-serif;
     font-size: 26px;
     font-weight: normal;
-    margin-top: -100px;
+    margin-top: -110px;
+    margin-left: 10px;
     font-family: "Source Serif 4", serif;
-    
   }
   .link-artigos {
-    margin: -40px 10px 0px 150px;
-    text-decoration: none;
+    margin: -50px 0px 0px -10px;
     text-decoration: none;
   }
   .link-artigos > a {
-    margin: 0px 0px 0px 100px;
+    margin-left: 15px;
     text-decoration: none;
     font-family: "Source Serif 4", serif;
-    
   }
   .link-tendencias > a {
+    margin-left: 15px;
     text-decoration: none;
   }
   .ultimos-post {
@@ -171,10 +172,8 @@ h6 {
     
   }
   .text-center {
-    background-color: #EAE0DB;
-    
+    background-color: #eae0db;
     margin-top: -102px;
-    
   }
   .texto-contato {
     margin: 34px 0px 0px 5px;
@@ -183,9 +182,8 @@ h6 {
     color: #8e1e1e;
     font-size: 63px;
     font-family: "Ogg", serif;
-    
   }
-  .form{
+  .form {
     padding-block: 1px;
     padding-inline: 2px;
     border-width: 1px;
@@ -193,23 +191,30 @@ h6 {
     font-size: 12px;
     margin-top: 10px;
     margin-left: -10px;
-    width: 250px;
+    width: 260px;
     height: 30px;
-    
+    border-radius: 1px;
   }
+
   /* imagens */
   .logo-Guta {
     width: 180px;
     margin-left: 160px !important;
-    
   }
   .logos-menu {
     text-align: center;
     list-style: none;
     margin-left: -188px;
   }
+  .seta {
+    margin-top: 20px;
+    margin-left: -1350px;
+  }
+  .ultimos-post {
+    background-color: #f4f4f4;
+    
+  }
 }
-
 @media (min-width: 550px) and (max-width: 900px) {
   .navbar {
     width: 80%;
