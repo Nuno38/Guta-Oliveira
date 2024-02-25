@@ -1,37 +1,45 @@
-
-
-
 :root {
   --cor-da-letra: rgb(17, 17, 17);
   --tamanho-da-letra: 22px;
   --tamanho-da-letra-smartphone: 16px;
-  --fonte-da-letras:'Open Sans', 'sans-serif';
+  --fonte-da-letras: "Ogg", serif;
   --tamanho-de-titulo: 45px;
-  --cor-da-barra-menu:#ffffff;
-
-  
+  --cor-da-barra-menu: #ffffff;
 }
 
 * {
   margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+  padding: 0 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 900;
+}
+.menu {
+  display: flexbox;
+}
+.warapper {
+  width: 100%;
+  margin: 0 auto;
+}
+.container {
+  width: 100%;
+  max-width: 760px;
+  margin: 0;
+  padding: 0 20px;
 }
 
-.navbar{
-  width: 110%;
-  margin: 20px 0px 0px -100px;
-  
-}
 .nav-link > li {
- 
   color: var(--cor-da-letra);
   font-size: var(--tamanho-da-letra);
   font-family: var(--fonte-da-letras) !important;
-  
 }
-.bg-body-tertiary{
-  background-color: var(--cor-da-barra-menu)  !important;
+.bg-body-tertiary {
+  background-color: var(--cor-da-barra-menu) !important;
 }
 .nav-link {
   color: var(--cor-da-letra);
@@ -40,12 +48,10 @@
 }
 
 .nav-link:hover {
-  color:#E52D27 !important;
- 
-  
+  color: #e52d27 !important;
 }
-.nav-item{
-  margin: 0px -180px 0px 355px;
+.nav-item {
+  margin-left: 200px;
   align-items: center;
 }
 
@@ -55,50 +61,96 @@
   font-size: var(--tamanho-de-titulo);
   color: var(--cor-da-letra);
 }
-.text-titulo::after {
-  content: "";
-  width: 200px;
-  height: 4px;
-  background: currentColor;
-  display: block;
-  margin: 10px auto;
+
+.ultimos-post {
+  background-color: #f4f4f4;
+  padding: 92px 0 114px;
 }
-.ultimos-post{
-  background-color: #edd1ae;
-}
-.card-text{
-  font-family: "GT Sectra Fine", sans-serif !important;
-}
-.link-artigos{
-  margin: -40px 0px 0px 1550px;
-  text-decoration:  none;
-  color: black !important;
+.card-text {
+  font-family: "EB Garamond", serif !important;
   
 }
-.link-artigos > a{
-  margin: -40px 0px 0px 0px;
-  text-decoration:  none;
+
+.link-artigos {
+  margin: -30px 0px 0px 1550px;
+  text-decoration: none;
   color: black !important;
+}
+.text-center {
+  background-color: #EAE0DB;
+  height: 250px;
+}
+.texto-contato {
+  margin: 40px 0px 0px 50px;
+  text-align: left;
+  align-items: center;
+  color: #8e1e1e;
+  font-size: 48px;
+}
+
+.link-artigos > a {
+  margin: 0px 0px 0px 100px;
+  text-decoration: none;
+  color: black !important;
+}
+
+.link-tendencias > a {
+  text-decoration: none;
+}
+.title{
+margin-top: -80px;
+}
+
+.form {
+  margin-top: 41px;
+  margin-left: 150px;
+  padding-block: 1px;
+  padding-inline: 2px;
+  letter-spacing: normal;
+  word-spacing: normal;
+  line-height: normal;
+  text-transform: none;
+  text-indent: 0px;
+  text-shadow: none;
+  display: inline-block;
+  text-align: start;
+  appearance: auto;
+  -webkit-rtl-ordering: logical;
+  cursor: text;
+  background-color: field;
+  width: 550px;
+  height: 60px;
+  border: 0px solid white;
   
 }
-.btn{
+.img {
+  -webkit-transition: all 1s ease; /* Safari and Chrome */
+  -moz-transition: all 1s ease; /* Firefox */
+  -ms-transition: all 1s ease; /* IE 9 */
+  -o-transition: all 1s ease; /* Opera */
+  transition: all 1s ease;
+}
+.img:hover {
+  -webkit-transform: scale(1.26); /* Safari and Chrome */
+  -moz-transform: scale(1.26); /* Firefox */
+  -ms-transform: scale(1.26); /* IE 9 */
+  -o-transform: scale(1.26); /* Opera */
+  transform: scale(1.26);
+}
+.btn {
   width: 175px;
   border-radius: 20px;
   background-color: #ffffff;
   color: black;
-  border: 2px solid  black;
+  border: 2px solid black;
   margin-top: 10px;
 }
-.container{
-   margin-top: 50px;
-}
-.img-card{
+
+.img-card {
   width: 100%;
   height: 80%;
 }
-.img-dicas{
-  width: 550px;
-}
+
 .img-insta {
   margin: 12px 10px 0px 0px;
 }
@@ -113,101 +165,117 @@
 
 .logos-menu {
   /* insta,whatsapp,facebook   */
-  margin: 0px 0px 0px 500px;
+  margin: 0px 0px 0px 300px;
 }
 .logo-Guta {
   width: 220px;
   margin-left: 100px;
 }
-
- /*  --- Header --- */
-
-
-@media (min-width:350px) and (max-width:500px) {
-  
-  .navbar{
+.img-card {
+  background-size: 100%;
+}
+/*  --- Header --- */
+.img-top {
+  background-position: center;
+}
+@media (min-width: 350px) and (max-width: 500px) {
+  .navbar {
     width: 430px;
     margin: 20px 0px 0px 0px;
   }
-  .nav-item{
+  .nav-item {
     margin: 0px 0px 10px 0px;
     align-items: center;
   }
 
   .nav-link > li {
- 
     color: var(--cor-da-letra);
     font-size: var(--tamanho-da-letra-smartphone);
     font-family: var(--fonte-da-letras) !important;
-    
   }
-  .collapse{
+  .collapse {
     width: 135px;
   }
-    
+
   .logo-Guta {
     width: 180px;
     margin-right: 40px;
   }
-  .imagem-slides{
+  .imagem-slides {
     width: 50%;
-   margin: 50px 0px 0px 190px;
+    margin: 50px 0px 0px 190px;
   }
-  .link-artigos{
-    margin: -40px 0px 0px 245px;
+  .link-artigos {
+    margin: -34px 0px 0px 135px;
+    align-items: center;
   }
-  .btn{
+  .title{
+    margin-top: -80px;
+  }
+  .btn {
     width: 175px;
     border-radius: 20px;
     background-color: #ffffff;
     color: black;
-    border: 2px solid  black;
+    border: 2px solid black;
     margin-top: 10px;
   }
   .logos-menu {
     /* insta,whatsapp,facebook   */
     margin: 30px 0px 0px 0px;
   }
+  .texto-contato {
+    margin: 20px 0px 0px 0px;
+    text-align: left;
+    align-items: center;
+    color: #8e1e1e;
+    font-size: 28px;
+  }
+  .text-center {
+    background-color: #EAE0DB;
+    height: 250px;
+   
+  .form{
+    margin: 0px 0px 0px 10px;
+    
+  }
 }
-@media (min-width:700px) and (max-width:980px){
-
-   .navbar{
+@media (min-width: 700px) and (max-width: 980px) {
+  .navbar {
     width: 430px;
     margin: 20px 0px 0px 0px;
   }
-  .nav-item{
+  .nav-item {
     margin: 0px 0px 10px 0px;
     align-items: center;
   }
 
   .nav-link > li {
- 
     color: var(--cor-da-letra);
     font-size: var(--tamanho-da-letra-smartphone);
     font-family: var(--fonte-da-letras) !important;
-    
   }
-  .collapse{
+  .collapse {
     width: 135px;
   }
-    
+
   .logo-Guta {
     width: 180px;
     margin-right: -300px;
   }
-  .imagem-slides{
+  .imagem-slides {
     width: 50%;
-   margin: 50px 0px 0px 190px;
+    margin: 50px 0px 0px 190px;
   }
-  .link-artigos{
+  .link-artigos {
     margin: -40px 0px 0px 245px;
   }
-  .btn{
+  .btn {
     width: 175px;
     border-radius: 20px;
     background-color: #ffffff;
     color: black;
-    border: 2px solid  black;
+    border: 2px solid black;
     margin-top: 10px;
   }
   .logos-menu {
@@ -216,140 +284,126 @@
   }
 }
 
-@media (min-width:900px) and (max-width:1200px){
+@media (min-width: 900px) and (max-width: 1200px) {
+  .navbar {
+    margin: 0px 0px 0px 0px;
+  }
+  .nav-item {
+    margin: 0px 0px 0px 50px;
+    align-items: center;
+  }
 
-  .navbar{
-  
-   margin: 0px 0px 0px 0px;
- }
- .nav-item{
-   margin: 0px 0px 0px 50px;
-   align-items: center;
- }
+  .nav-link > li {
+    color: var(--cor-da-letra);
+    font-size: var(--tamanho-da-letra-smartphone);
+    font-family: var(--fonte-da-letras) !important;
+  }
+  .collapse {
+    width: 135px;
+  }
 
- .nav-link > li {
+  .logo-Guta {
+    width: 200px;
+    margin-left: -5px;
+    margin-top: -10px;
+  }
 
-   color: var(--cor-da-letra);
-   font-size: var(--tamanho-da-letra-smartphone);
-   font-family: var(--fonte-da-letras) !important;
-   
- }
- .collapse{
-   width: 135px;
- }
-   
- .logo-Guta {
-   width: 200px;
-   margin-left: -5px;
-   margin-top: -10px;
-
- }
- 
- .link-artigos{
-   margin: -40px 0px 0px 800px;
- }
- .btn{
-   width: 175px;
-   border-radius: 20px;
-   background-color: #ffffff;
-   color: black;
-   border: 2px solid  black;
-   margin-top: 10px;
- }
- .logos-menu {
-   /* insta,whatsapp,facebook   */
-   margin: 0px 10px 0px 22px;
- }
+  .link-artigos {
+    margin: -40px 0px 0px 800px;
+  }
+  .btn {
+    width: 175px;
+    border-radius: 20px;
+    background-color: #ffffff;
+    color: black;
+    border: 2px solid black;
+    margin-top: 10px;
+  }
+  .logos-menu {
+    /* insta,whatsapp,facebook   */
+    margin: 0px 10px 0px 22px;
+  }
 }
 
-@media (min-width:700px) and (max-width:980px){
+@media (min-width: 700px) and (max-width: 980px) {
+  .navbar {
+    width: 430px;
+    margin: 20px 0px 0px 0px;
+  }
+  .nav-item {
+    margin: 0px 0px 10px 0px;
+    align-items: center;
+  }
 
-  .navbar{
-   width: 430px;
-   margin: 20px 0px 0px 0px;
- }
- .nav-item{
-   margin: 0px 0px 10px 0px;
-   align-items: center;
- }
+  .nav-link > li {
+    color: var(--cor-da-letra);
+    font-size: var(--tamanho-da-letra-smartphone);
+    font-family: var(--fonte-da-letras) !important;
+  }
+  .collapse {
+    width: 135px;
+  }
 
- .nav-link > li {
-
-   color: var(--cor-da-letra);
-   font-size: var(--tamanho-da-letra-smartphone);
-   font-family: var(--fonte-da-letras) !important;
-   
- }
- .collapse{
-   width: 135px;
- }
-   
- .logo-Guta {
-   width: 180px;
-   margin-right: -300px;
- }
- .imagem-slides{
-   width: 50%;
-  margin: 50px 0px 0px 190px;
- }
- .link-artigos{
-   margin: -40px 0px 0px 245px;
- }
- .btn{
-   width: 175px;
-   border-radius: 20px;
-   background-color: #ffffff;
-   color: black;
-   border: 2px solid  black;
-   margin-top: 10px;
- }
- .logos-menu {
-   /* insta,whatsapp,facebook   */
-   margin: 30px 0px 0px 0px;
- }
+  .logo-Guta {
+    width: 180px;
+    margin-right: -300px;
+  }
+  .imagem-slides {
+    width: 50%;
+    margin: 50px 0px 0px 190px;
+  }
+  .link-artigos {
+    margin: -40px 0px 0px 245px;
+  }
+  .btn {
+    width: 175px;
+    border-radius: 20px;
+    background-color: #ffffff;
+    color: black;
+    border: 2px solid black;
+    margin-top: 10px;
+  }
+  .logos-menu {
+    /* insta,whatsapp,facebook   */
+    margin: 30px 0px 0px 0px;
+  }
 }
 
-@media (min-width:1200px) and (max-width:1500px){
+@media (min-width: 1200px) and (max-width: 1500px) {
+  .navbar {
+  }
+  .nav-item {
+    margin: 0px 0px 0px 50px;
+    align-items: center;
+  }
 
- .navbar{
- 
-  
-}
-.nav-item{
-  margin: 0px 0px 0px 50px;
-  align-items: center;
-}
+  .nav-link > li {
+    color: var(--cor-da-letra);
+    font-size: var(--tamanho-da-letra-smartphone);
+    font-family: var(--fonte-da-letras) !important;
+  }
+  .collapse {
+    width: 135px;
+  }
 
-.nav-link > li {
+  .logo-Guta {
+    width: 200px;
+    margin: -10px 80px 0px 95px;
+  }
 
-  color: var(--cor-da-letra);
-  font-size: var(--tamanho-da-letra-smartphone);
-  font-family: var(--fonte-da-letras) !important;
-  
-}
-.collapse{
-  width: 135px;
-}
-  
-.logo-Guta {
-  width: 200px;
-  margin: -10px 80px 0px 95px ;
-
-}
-
-.link-artigos{
-  margin: -40px 0px 0px 800px;
-}
-.btn{
-  width: 175px;
-  border-radius: 20px;
-  background-color: #ffffff;
-  color: black;
-  border: 2px solid  black;
-  margin-top: 10px;
-}
-.logos-menu {
-  /* insta,whatsapp,facebook   */
-  margin: 0px 0px 0px 210px;
-}
+  .link-artigos {
+    margin: -40px 0px 0px 800px;
+  }
+  .btn {
+    width: 175px;
+    border-radius: 20px;
+    background-color: #ffffff;
+    color: black;
+    border: 2px solid black;
+    margin-top: 10px;
+  }
+  .logos-menu {
+    /* insta,whatsapp,facebook   */
+    margin: 0px 0px 0px 210px;
+  }
 }
