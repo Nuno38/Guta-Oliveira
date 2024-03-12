@@ -23,14 +23,12 @@ h6 {
 .nav-item > a {
   align-items: end;
   font-family: "Ogg", serif;
-  font-size: 24px;
+  font-size: 34px;
 }
-.text-menu {
-  margin: 0px 0px 0px 500px;
+.nav-link {
+  margin: 0px 20px 0px 0px;
 }
-.nav-item {
-  margin: 0px 14px 0px 0px;
-}
+
 .ultimos-post {
   background-color: #f4f4f4;
   padding: 95px 0;
@@ -38,6 +36,7 @@ h6 {
 }
 .card-text {
   font-family: "EB Garamond", serif !important;
+  font-size: 22px;
 }
 .title {
   color: #070707;
@@ -52,7 +51,7 @@ h6 {
   text-decoration: none;
 }
 .link-artigos {
-  margin: -50px 200px 0px 1650px;
+  margin: -50px 200px 0px 2550px;
   text-decoration: none;
 }
 .link-artigos > a {
@@ -90,13 +89,68 @@ h6 {
   width: 100%;
   height: 60px;
 }
+ /* carrosel imagens */
+.item{
+  width: 550px;
+  height: 550px;
+  flex-shrink: 0;
+  transition: all 600ms ease-in-out;
+  display: inline-block; 
+}
+.current-item{
+  opacity: 1;
+}
+.cards{
+  width: 554px;
+  position:static;
+  display: inline-block;
+  flex-shrink: 0;
+  
+}
+.containe{
+  background-color: #f4f4f4;
+  position: relative;
+  
+  padding: 15px;
+  margin: 0 auto;
+}
+.titulo-card1,.titulo-card2,.titulo-card3,.titulo-card4,.titulo-card5,.titulo-card6{
+ text-align: center;
+}
+.gallery-wrapper::-webkit-scrollbar{
+  display: none;
+}
+.gallery-wrapper{
+  overflow-x: 0 auto;
+  overflow-y: hidden;
+  margin-top: 100px;
+  width: 100%;
+  z-index: 0;
+  scroll-behavior: smooth;
+}
+.gallery{
+  display: flex;
+  flex-flow: row nowrap;
+  gap: 25px;
+}
+.arrow-left{
+  margin: -300px 0px 0px 1550px;
+  
+}
+.arrow-right{
+  margin: -300px 0px 0px 1450px;
+  
+}
 /* imagens */
 .logo-Guta {
-  width: 180px;
+  width: 280px;
+  margin: 0px 750px 0px 70px;
 }
 .logos-menu {
   text-align: center;
   list-style: none;
+  width: 240px;
+  
 }
 .seta {
   -webkit-transition: all 1s ease; /* Safari and Chrome */
@@ -127,19 +181,24 @@ h6 {
   transform: scale(1.26);
 }
 
-@media (min-width: 360px) and (max-width: 500px) {
-  .boby {
+
+@media (min-width: 360px) and (max-width: 460px)  {
+
+  .boby { 
     margin: 0px;
     padding: 0px;
+  }
+  .navbar-toggler{
+    margin-top: 15px;
   }
   .navbar {
     background-color: #fff;
   }
   .navbar-toggler {
-    margin-top: -40px;
+    margin-top: -10px;
   }
-  .text-menu {
-    margin: 0px 0px 0px 5px;
+  .nav-item {
+    margin: 10px 0px 0px 0px;
   }
 
   .card-text {
@@ -195,33 +254,574 @@ h6 {
     height: 30px;
     border-radius: 1px;
   }
-
+  
   /* imagens */
+
+  .img-top{
+    margin-top: 35px;
+  }
   .logo-Guta {
     width: 180px;
-    margin-left: 160px !important;
+    margin-left: -760px !important;
+    margin-top: 20px;
   }
   .logos-menu {
     text-align: center;
     list-style: none;
-    margin-left: -188px;
+    margin-left: -30px;
   }
   .seta {
     margin-top: 20px;
-    margin-left: -1350px;
+    margin-left: 280px;
   }
   .ultimos-post {
     background-color: #f4f4f4;
     
   }
-}
-@media (min-width: 550px) and (max-width: 900px) {
-  .navbar {
-    width: 80%;
-    margin: -40px 0px 0px 300px;
+   /* carrosel imagens */
+   .card_dicas_da_semana{
+    width: 400px;
+    margin-top: 350px;
+    height: 200px;
+   }
+  .cards{
+    width: 310px;
+    position:static;
+    display: inline-block;
+    flex-shrink: 0;
+    
+  }
+  .item{
+    position: relative;
+    width: 308px;
+    height: 310px;
+    flex-shrink: 0;
+    transition: all 600ms ease-in-out;
+    display: inline-block; 
+    
   }
 
+  .current-item{
+    opacity: 1;
+  }
+  .containe{
+    background-color: #f4f4f4;
+    position: absolute;
+    width: 405px;
+    padding: 25px;
+    margin: 0 auto;
+    margin-top: -45px;
+  }
+  .titulo-card1,.titulo-card2,.titulo-card3,.titulo-card4,.titulo-card5,.titulo-card6{
+   text-align: center;
+  }
+  .gallery-wrapper::-webkit-scrollbar{
+    display: none;
+  }
+  .gallery-wrapper{
+    overflow-x: 0 auto;
+    overflow-y: hidden;
+    margin-top: 100px;
+    width: 100%;
+    z-index: 0;
+    scroll-behavior: smooth;
+    margin-top: 30px;
+  }
+  .gallery{
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 15px;
+  }
+  .arrow-left{
+    width: 60px;
+    margin: -180px 0px 10px 130px;
+    
+    
+  }
+  .arrow-right{
+    width: 60px;
+    margin: -180px 0px 10px 80px;
+    
+  }
+}
+
+/* ipad mini */
+@media (min-width: 700px) and (max-width: 980px)  {
+  .boby { 
+    margin: 0px;
+    padding: 0px;
+  }
+  .navbar-toggler{
+    margin-top: 15px;
+  }
+  .navbar {
+    background-color: #fff;
+  }
+  .navbar-toggler {
+    margin-top: -10px;
+  }
+  .nav-item {
+    margin: 10px 0px 0px 0px;
+  }
+
+  .card-text {
+    font-family: "EB Garamond", serif !important;
+  }
+  .title {
+    color: #070707;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-size: 26px;
+    font-weight: normal;
+    margin-top: -110px;
+    margin-left: 10px;
+    font-family: "Source Serif 4", serif;
+  }
+  .link-artigos {
+    margin: -50px 0px 0px -10px;
+    text-decoration: none;
+  }
+  .link-artigos > a {
+    margin-left: 15px;
+    text-decoration: none;
+    font-family: "Source Serif 4", serif;
+  }
+  .link-tendencias > a {
+    margin-left: 15px;
+    text-decoration: none;
+  }
+  .ultimos-post {
+    background-color: #f4f4f4;
+    
+  }
+  .text-center {
+    background-color: #eae0db;
+    margin-top: -102px;
+  }
+  .texto-contato {
+    margin: 34px 0px 0px 29px;
+    text-align: left;
+    align-items: center;
+    color: #8e1e1e;
+    font-size: 63px;
+    font-family: "Ogg", serif;
+  }
+  .form {
+    padding-block: 1px;
+    padding-inline: 2px;
+    border-width: 1px;
+    border-style: inset;
+    font-size: 12px;
+    margin-top: 10px;
+    margin-left: 350px;
+    width: 300px;
+    height: 30px;
+    border-radius: 1px;
+  }
+  
+  /* imagens */
+
+  .img-top{
+    margin-top: 35px;
+  }
   .logo-Guta {
-    width: 80px;
+    width: 180px;
+    margin-left: -760px !important;
+    margin-top: 20px;
+  }
+  .logos-menu {
+    text-align: center;
+    list-style: none;
+    margin-left: -30px;
+  }
+  .seta {
+    margin-top: 20px;
+    margin-left: 620px;
+  }
+  .ultimos-post {
+    background-color: #f4f4f4;
+    
+  }
+   /* carrosel imagens */
+  .cards{
+    width: 310px;
+    position:static;
+    display: inline-block;
+    flex-shrink: 0;
+    
+  }
+  .item{
+    position: relative;
+    width: 308px;
+    height: 310px;
+    flex-shrink: 0;
+    transition: all 600ms ease-in-out;
+    display: inline-block; 
+    
+  }
+
+  .current-item{
+    opacity: 1;
+  }
+  .containe{
+    background-color: #f4f4f4;
+    position: absolute;
+    width: 742px;
+    padding: 25px;
+    margin: 0 auto;
+    margin-top: -45px;
+  }
+  .titulo-card1,.titulo-card2,.titulo-card3,.titulo-card4,.titulo-card5,.titulo-card6,.titulo-card7{
+   text-align: center;
+  }
+  
+  .gallery-wrapper::-webkit-scrollbar{
+    display: none;
+  }
+  .gallery-wrapper{
+    overflow-x: 0 auto;
+    overflow-y: hidden;
+    margin-top: 100px;
+    width: 100%;
+    z-index: 0;
+    scroll-behavior: smooth;
+    margin-top: 30px;
+  }
+  .gallery{
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 15px;
+  }
+  .arrow-left{
+    width: 60px;
+    margin: -180px 0px 10px 130px;
+    
+    
+  }
+  .arrow-right{
+    width: 60px;
+    margin: -180px 0px 10px 80px;
+    
+  }
+}
+
+
+@media (min-width: 992px) and (max-width: 1200px)  {
+  .boby { 
+    margin: 0px;
+    padding: 0px;
+  }
+  .navbar-toggler{
+    margin-top: 15px;
+  }
+  .navbar {
+    background-color: #fff;
+  }
+  .navbar-toggler {
+    margin-top: -10px;
+  }
+  .nav-item {
+    align-items: center;
+  }
+
+  .card-text {
+    font-family: "EB Garamond", serif !important;
+  }
+  .title {
+    color: #070707;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-size: 26px;
+    font-weight: normal;
+    margin-top: -110px;
+    margin-left: 10px;
+    font-family: "Source Serif 4", serif;
+  }
+  .link-artigos {
+    margin: -50px 0px 0px -10px;
+    text-decoration: none;
+  }
+  .link-artigos > a {
+    margin-left: 15px;
+    text-decoration: none;
+    font-family: "Source Serif 4", serif;
+  }
+  .link-tendencias > a {
+    margin-left: 15px;
+    text-decoration: none;
+  }
+  .ultimos-post {
+    background-color: #f4f4f4;
+    
+  }
+  .text-center {
+    background-color: #eae0db;
+    margin-top: -102px;
+  }
+  .texto-contato {
+    margin: 54px 190px -70px 20px;
+    text-align: left;
+    align-items: center;
+    color: #8e1e1e;
+    font-size: 63px;
+    font-family: "Ogg", serif;
+  }
+  .form {
+   border: none;
+    font-size: 12px;
+    margin-top: 0px;
+    margin-left: 550px;
+    width: 300px;
+    height: 40px;
+    border-radius: 1px;
+  }
+  
+  /* imagens */
+
+  .img-top{
+    margin-top: 35px;
+  }
+  .logo-Guta {
+    width: 180px;
+    margin-left: -20px !important;
+    margin: 0px 60px 0px 20px;
+  }
+  .logos-menu {
+    text-align: center;
+    list-style: none;
+    
+  }
+  .seta {
+    margin-top: 20px;
+    margin-left: 900px;
+  }
+  .ultimos-post {
+    background-color: #f4f4f4;
+    
+  }
+   /* carrosel imagens */
+
+   .card_dicas_da_semana{
+    width: 1000px;
+    margin-top: 350px;
+    height: 200px;
+   }
+  .cards{
+    width: 310px;
+    position:static;
+    display: inline-block;
+    flex-shrink: 0;
+    
+  }
+  .item{
+    position: relative;
+    width: 308px;
+    height: 310px;
+    flex-shrink: 0;
+    transition: all 600ms ease-in-out;
+    display: inline-block; 
+    
+  }
+
+  .current-item{
+    opacity: 1;
+  }
+  .containe{
+    background-color: #f4f4f4;
+    position: absolute;
+    width: 999px;
+    padding: 25px;
+    margin: 0 auto;
+    margin-top: -15px;
+  }
+  .titulo-card1,.titulo-card2,.titulo-card3,.titulo-card4,.titulo-card5,.titulo-card6{
+   text-align: center;
+  }
+  .gallery-wrapper::-webkit-scrollbar{
+    display: none;
+  }
+  .gallery-wrapper{
+    overflow-x: 0 auto;
+    overflow-y: hidden;
+    margin-top: 100px;
+    width: 100%;
+    z-index: 0;
+    scroll-behavior: smooth;
+    margin-top: 30px;
+  }
+  .gallery{
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 15px;
+  }
+  .arrow-left{
+    width: 60px;
+    margin: -180px 0px 10px 600px;
+    
+    
+  }
+  .arrow-right{
+    width: 60px;
+    margin: -180px 0px 10px 550px;
+    
+  }
+}
+
+/*   Tablet    */
+@media (min-width: 1100px) and (max-width: 1400px)  {
+  .boby { 
+    margin: 0px;
+    padding: 0px;
+  }
+  .navbar-toggler{
+    margin-top: 15px;
+  }
+  .navbar {
+    background-color: #fff;
+  }
+  .navbar-toggler {
+    margin-top: -10px;
+  }
+  .nav-item {
+    align-items: center;
+  }
+
+  .card-text {
+    font-family: "EB Garamond", serif !important;
+  }
+  .title {
+    color: #070707;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-size: 26px;
+    font-weight: normal;
+    margin-top: -110px;
+    margin-left: 10px;
+    font-family: "Source Serif 4", serif;
+  }
+  .link-artigos {
+    margin: -50px 0px 0px -10px;
+    text-decoration: none;
+  }
+  .link-artigos > a {
+    margin-left: 15px;
+    text-decoration: none;
+    font-family: "Source Serif 4", serif;
+  }
+  .link-tendencias > a {
+    margin-left: 15px;
+    text-decoration: none;
+  }
+  .ultimos-post {
+    background-color: #f4f4f4;
+    
+  }
+  .text-center {
+    background-color: #eae0db;
+    margin-top: -102px;
+  }
+  .texto-contato {
+    margin: 54px 190px -70px 20px;
+    text-align: left;
+    align-items: center;
+    color: #8e1e1e;
+    font-size: 63px;
+    font-family: "Ogg", serif;
+  }
+  .form {
+   border: none;
+    font-size: 12px;
+    margin-top: 0px;
+    margin-left: 550px;
+    width: 300px;
+    height: 40px;
+    border-radius: 1px;
+  }
+  
+  /* imagens */
+
+  .img-top{
+    margin-top: 35px;
+  }
+  .logo-Guta {
+    width: 180px;
+    margin-left: -20px !important;
+    margin: 0px 210px 0px 20px;
+  }
+  .logos-menu {
+    text-align: center;
+    list-style: none;
+    
+  }
+  .seta {
+    margin-top: 20px;
+    margin-left: 1150px;
+  }
+  .ultimos-post {
+    background-color: #f4f4f4;
+    
+  }
+   /* carrosel imagens */
+   .card_dicas_da_semana{
+    width: 1000px;
+    margin-top: 420px;
+    height: 200px;
+   }
+
+  .cards{
+    width: 310px;
+    position:static;
+    display: inline-block;
+    flex-shrink: 0;
+    
+  }
+  .item{
+    position: relative;
+    width: 308px;
+    height: 310px;
+    flex-shrink: 0;
+    transition: all 600ms ease-in-out;
+    display: inline-block; 
+    
+  }
+
+  .current-item{
+    opacity: 1;
+  }
+  .containe{
+    background-color: #f4f4f4;
+    position: absolute;
+    width: 1274px;
+    padding: 25px;
+    margin: 0 auto;
+    margin-top: 25px;
+  }
+  .titulo-card1,.titulo-card2,.titulo-card3,.titulo-card4,.titulo-card5,.titulo-card6{
+   text-align: center;
+  }
+  .gallery-wrapper::-webkit-scrollbar{
+    display: none;
+  }
+  .gallery-wrapper{
+    overflow-x: 0 auto;
+    overflow-y: hidden;
+    margin-top: 100px;
+    width: 100%;
+    z-index: 0;
+    scroll-behavior: smooth;
+    margin-top: 30px;
+  }
+  .gallery{
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 15px;
+  }
+  .arrow-left{
+    width: 60px;
+    margin: -180px 0px 10px 780px;
+    
+    
+  }
+  .arrow-right{
+    width: 60px;
+    margin: -180px 0px 10px 710px;
+    
   }
 }
