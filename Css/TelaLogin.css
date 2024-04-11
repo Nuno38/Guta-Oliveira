@@ -1,0 +1,68 @@
+
+:root{
+--corDeFundo:#FFFF;
+
+
+}
+.body {
+    background-color: #f8f9fa;
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    margin-top: 100px;
+    
+  }
+  .card {
+    border: 1px solid #0f0f0f;
+    border-radius: 10px;
+    margin-top: 80px;
+  }
+  
+  .card-header {
+    background-color: #007bff;
+    color: #fff;
+    border-bottom: none;
+  }
+  
+  .card-body {
+    padding: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+
+  /* Estilos específicos para telas menores (responsivo) */
+  @media (max-width: 768px) {
+    .container {
+      margin-top: 50px;
+    }
+    .card {
+        border: 2px solid #0f0f0f;
+        border-radius: 10px;
+        margin-top: 140px;
+      }
+  }
+  
+  @media (max-width: 576px) {
+    .card {
+      margin: 0 15px;
+    }
+    .card {
+        border: 1px solid #0f0f0f;
+        border-radius: 10px;
+        margin-top: 180px;
+      }
+  }
+
+/*  
+.body{
+    background-color: var(--corDeFundo);
+}
+.container{
+    align-items: center;
+}
+
+*/
