@@ -1,6 +1,7 @@
+
 :root {
   --Cor-de-fundo: #fff;
-  --tamanho-da-letra: 22px;
+  --tamanho-da-letra: 18px;
   --tamanho-da-letra-smartphone: 16px;
   --fonte-da-letras: "Ogg", serif;
   --tamanho-de-titulo: 45px;
@@ -15,7 +16,16 @@ h3,
 h4,
 h5,
 h6 {
-  font-weight: 900;
+  font-weight: 200;
+  margin-top: 5px;
+}
+.linha-titulo{
+width: 350px;
+}
+
+.nav-menu{
+  list-style: none;
+ margin-left: 350px;
 }
 .navbar {
   background: #ffffff !important;
@@ -23,10 +33,14 @@ h6 {
 .nav-item > a {
   align-items: end;
   font-family: "Ogg", serif;
-  font-size: 34px;
+  font-size: 22px;
 }
 .nav-link {
   margin: 0px 20px 0px 0px;
+  align-items: center;
+}
+.nav-link:hover{
+  transform: scale(1.1);
 }
 
 .ultimos-post {
@@ -37,6 +51,7 @@ h6 {
 .card-text {
   font-family: "EB Garamond", serif !important;
   font-size: 22px;
+  color: #070707;
 }
 .title {
   color: #070707;
@@ -47,15 +62,18 @@ h6 {
   font-family: "Source Serif 4", serif;
   margin-left: 50px;
 }
+.links{
+  text-decoration: none;
+}
 .link-tendencias {
   text-decoration: none;
 }
 .link-artigos {
-  margin: -50px 200px 0px 2550px;
+  margin: -50px 200px 0px 1780px;
   text-decoration: none;
 }
 .link-artigos > a {
-  margin: 0px 0px 0px 100px;
+  
   text-decoration: none;
   font-family: "Source Serif 4", serif;
 }
@@ -89,10 +107,59 @@ h6 {
   width: 100%;
   height: 60px;
 }
+.text-depoimento{
+  color: #747474;
+  background-color: #f6f6f6;
+  
+}
+.text-depo{
+  background-color:#fff;
+  font-size: 22px;
+  margin-top: 190px;
+}
+.comment-card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+.comment-card img {
+  width: 80px;
+  height: 250px;
+  border-radius: 50%;
+  float: left;
+  margin-right: 6px;
+}
+.comment-card .comment-details {
+  overflow: hidden;
+}
+.comment-card .comment-details h3 {
+  margin-top: 0;
+}
+/* imagens */
+.logo-Guta {
+  width: 280px;
+  margin: 10px 0px 0px 100px;
+}
+.logos-menu {
+  text-align: center;
+  list-style: none;
+  width: 240px;
+  
+}
+.img-top{
+  width:1550px;
+  height: 100%;
+  border-radius: 4px;
+ 
+}
+
  /* carrosel imagens */
+
 .item{
-  width: 550px;
-  height: 550px;
+  width: 350px;
+  height: 350px;
   flex-shrink: 0;
   transition: all 600ms ease-in-out;
   display: inline-block; 
@@ -101,22 +168,24 @@ h6 {
   opacity: 1;
 }
 .cards{
-  width: 554px;
-  position:static;
+ 
+  margin: 0px 20px 0px 150px;
   display: inline-block;
-  flex-shrink: 0;
+  align-items: center;
   
 }
-.containe{
-  background-color: #f4f4f4;
-  position: relative;
-  
-  padding: 15px;
+.containerr{
+  margin-top: 450px;
+  width: 1870px;
+
   margin: 0 auto;
+  background-color: #fff;
 }
-.titulo-card1,.titulo-card2,.titulo-card3,.titulo-card4,.titulo-card5,.titulo-card6{
+.titulo-card1,.titulo-card2,.titulo-card3,.titulo-card4,.titulo-card5,.titulo-card6,.titulo-card7{
  text-align: center;
 }
+/* curvas */
+/*------------------- using another momente
 .gallery-wrapper::-webkit-scrollbar{
   display: none;
 }
@@ -134,71 +203,66 @@ h6 {
   gap: 25px;
 }
 .arrow-left{
-  margin: -300px 0px 0px 1550px;
+  margin: -320px 0px 0px 1170px;
+  width: 70px;
   
 }
 .arrow-right{
-  margin: -300px 0px 0px 1450px;
+  margin: -320px 0px 0px 1100px;
+  width: 70px;
   
-}
-/* imagens */
-.logo-Guta {
-  width: 280px;
-  margin: 0px 750px 0px 70px;
-}
-.logos-menu {
-  text-align: center;
-  list-style: none;
-  width: 240px;
-  
+
 }
 .seta {
-  -webkit-transition: all 1s ease; /* Safari and Chrome */
-  -moz-transition: all 1s ease; /* Firefox */
-  -ms-transition: all 1s ease; /* IE 9 */
-  -o-transition: all 1s ease; /* Opera */
+  -webkit-transition: all 1s ease;  Safari and Chrome 
+  -moz-transition: all 1s ease;  Firefox 
+  -ms-transition: all 1s ease;  IE 9 
+  -o-transition: all 1s ease;  Opera 
   transition: all 1s ease;
+  
 }
 .seta:hover {
-  -webkit-transform: scale(1.26); /* Safari and Chrome */
-  -moz-transform: scale(1.26); /* Firefox */
-  -ms-transform: scale(1.26); /* IE 9 */
-  -o-transform: scale(1.26); /* Opera */
+  -webkit-transform: scale(1.26);  Safari and Chrome 
+  -moz-transform: scale(1.26);  Firefox *
+  -ms-transform: scale(1.26);  IE 9
+  -o-transform: scale(1.26);  Opera 
   transform: scale(1.26);
 }
 .img {
-  -webkit-transition: all 1s ease; /* Safari and Chrome */
-  -moz-transition: all 1s ease; /* Firefox */
-  -ms-transition: all 1s ease; /* IE 9 */
-  -o-transition: all 1s ease; /* Opera */
+  -webkit-transition: all 1s ease; Safari and Chrome 
+  -moz-transition: all 1s ease;  Firefox 
+  -ms-transition: all 1s ease;  IE 9 
+  -o-transition: all 1s ease;  Opera 
   transition: all 1s ease;
 }
 .img:hover {
-  -webkit-transform: scale(1.26); /* Safari and Chrome */
-  -moz-transform: scale(1.26); /* Firefox */
-  -ms-transform: scale(1.26); /* IE 9 */
-  -o-transform: scale(1.26); /* Opera */
+  -webkit-transform: scale(1.26); Safari and Chrome 
+  -moz-transform: scale(1.26);  Firefox 
+  -ms-transform: scale(1.26); IE 9 
+  -o-transform: scale(1.26);  Opera 
   transform: scale(1.26);
 }
+---------------------
+
+*/
 
 
-@media (min-width: 360px) and (max-width: 460px)  {
-
+@media (min-width:930px) and (max-width: 1030px)  {
   .boby { 
     margin: 0px;
     padding: 0px;
   }
   .navbar-toggler{
     margin-top: 15px;
+    
   }
   .navbar {
     background-color: #fff;
+    
   }
-  .navbar-toggler {
-    margin-top: -10px;
-  }
+  
   .nav-item {
-    margin: 10px 0px 0px 0px;
+    align-items: center;
   }
 
   .card-text {
@@ -235,7 +299,7 @@ h6 {
     margin-top: -102px;
   }
   .texto-contato {
-    margin: 34px 0px 0px 5px;
+    margin: 54px 190px -70px 20px;
     text-align: left;
     align-items: center;
     color: #8e1e1e;
@@ -243,15 +307,12 @@ h6 {
     font-family: "Ogg", serif;
   }
   .form {
-    padding-block: 1px;
-    padding-inline: 2px;
-    border-width: 1px;
-    border-style: inset;
+   border: none;
     font-size: 12px;
-    margin-top: 10px;
-    margin-left: -10px;
-    width: 260px;
-    height: 30px;
+    margin-top: -10px;
+    margin-left: 350px;
+    width: 300px;
+    height: 40px;
     border-radius: 1px;
   }
   
@@ -261,26 +322,27 @@ h6 {
     margin-top: 35px;
   }
   .logo-Guta {
-    width: 180px;
-    margin-left: -760px !important;
-    margin-top: 20px;
+    width: 130px;
+    margin: -110px 0px -100px 20px !important;
+    
   }
   .logos-menu {
     text-align: center;
     list-style: none;
-    margin-left: -30px;
+    
   }
   .seta {
     margin-top: 20px;
-    margin-left: 280px;
+    margin-left: 600px;
   }
   .ultimos-post {
     background-color: #f4f4f4;
     
   }
    /* carrosel imagens */
+
    .card_dicas_da_semana{
-    width: 400px;
+    width: 1000px;
     margin-top: 350px;
     height: 200px;
    }
@@ -307,10 +369,10 @@ h6 {
   .containe{
     background-color: #f4f4f4;
     position: absolute;
-    width: 390px;
+    width: 1000px;
     padding: 25px;
     margin: 0 auto;
-    margin-top: -45px;
+    margin-top: -15px;
   }
   .titulo-card1,.titulo-card2,.titulo-card3,.titulo-card4,.titulo-card5,.titulo-card6{
    text-align: center;
@@ -334,36 +396,49 @@ h6 {
   }
   .arrow-left{
     width: 60px;
-    margin: -180px 0px 10px 130px;
+    margin: -180px 0px 10px 450px;
     
     
   }
   .arrow-right{
     width: 60px;
-    margin: -180px 0px 10px 80px;
+    margin: -180px 0px 10px 380px;
     
+  }
+
+  .dicaSemana{
+    margin-top: 0px;
+    width: 350px;
   }
 }
 
 /* ipad mini */
-@media (min-width: 700px) and (max-width: 980px)  {
+@media (min-width:700px) and (max-width:900px) {
   .boby { 
     margin: 0px;
     padding: 0px;
   }
+  .nav-menu{
+    list-style: none;
+    position: relative;
+    padding: 0;
+    margin: 0;
+   text-align: left;
+  }
   .navbar-toggler{
-    margin-top: 15px;
+   margin-left: -400;
+    
   }
   .navbar {
     background-color: #fff;
   }
-  .navbar-toggler {
-    margin-top: -10px;
-  }
   .nav-item {
     margin: 10px 0px 0px 0px;
+   
   }
-
+.container-fluid{
+  align-items: center;
+}
   .card-text {
     font-family: "EB Garamond", serif !important;
   }
@@ -425,7 +500,7 @@ h6 {
   }
   .logo-Guta {
     width: 180px;
-    margin-left: -760px !important;
+   margin-left: 50px;
     margin-top: 20px;
   }
   .logos-menu {
@@ -434,6 +509,7 @@ h6 {
     margin-left: -30px;
   }
   .seta {
+    
     margin-top: 20px;
     margin-left: 620px;
   }
@@ -465,10 +541,10 @@ h6 {
   .containe{
     background-color: #f4f4f4;
     position: absolute;
-    width: 742px;
+    width: 750px;
     padding: 25px;
     margin: 0 auto;
-    margin-top: -45px;
+    margin-top: -15px;
   }
   .titulo-card1,.titulo-card2,.titulo-card3,.titulo-card4,.titulo-card5,.titulo-card6,.titulo-card7{
    text-align: center;
@@ -492,35 +568,46 @@ h6 {
     gap: 15px;
   }
   .arrow-left{
-    width: 60px;
-    margin: -180px 0px 10px 130px;
+    width: 70px;
+    margin: -190px 0px 0px 430px;
     
     
   }
   .arrow-right{
-    width: 60px;
-    margin: -180px 0px 10px 80px;
+    width: 70px;
+    margin: -190px 0px 0px 350px;
     
+  }
+  .dicaSemana{
+    margin-top: 400px;
+    width: 750px;
+
   }
 }
 
+@media (min-width:350px) and (max-width: 460px){
 
-@media (min-width: 992px) and (max-width: 1200px)  {
   .boby { 
     margin: 0px;
     padding: 0px;
   }
-  .navbar-toggler{
-    margin-top: 15px;
+  .nav-menu{
+    list-style: none;
+    position: relative;
+    padding: 0;
+    margin: 0;
+   text-align: left;
   }
   .navbar {
     background-color: #fff;
   }
   .navbar-toggler {
-    margin-top: -10px;
+    
+    margin-top: -20px;
+   
   }
   .nav-item {
-    align-items: center;
+    margin: 10px 0px 0px 0px;
   }
 
   .card-text {
@@ -529,7 +616,7 @@ h6 {
   .title {
     color: #070707;
     font-family: "IBM Plex Sans", sans-serif;
-    font-size: 26px;
+    font-size: 20px;
     font-weight: normal;
     margin-top: -110px;
     margin-left: 10px;
@@ -557,7 +644,7 @@ h6 {
     margin-top: -102px;
   }
   .texto-contato {
-    margin: 54px 190px -70px 20px;
+    margin: 34px 0px 0px 5px;
     text-align: left;
     align-items: center;
     color: #8e1e1e;
@@ -565,12 +652,15 @@ h6 {
     font-family: "Ogg", serif;
   }
   .form {
-   border: none;
+    padding-block: 1px;
+    padding-inline: 2px;
+    border-width: 1px;
+    border-style: inset;
     font-size: 12px;
-    margin-top: 0px;
-    margin-left: 550px;
-    width: 300px;
-    height: 40px;
+    margin-top: 10px;
+    margin-left: -10px;
+    width: 260px;
+    height: 30px;
     border-radius: 1px;
   }
   
@@ -578,29 +668,37 @@ h6 {
 
   .img-top{
     margin-top: 35px;
+    width: 400px;
+    align-items: center;
+    margin-left: -19px;
   }
+  .cards{
+    margin-left: -14px;
+    align-items: center;
+    width: 30px;
+  }
+  .container{
+    align-items: center;
+  }
+  .item{
+    width: 30px;
+  }
+  
   .logo-Guta {
     width: 180px;
-    margin-left: -20px !important;
-    margin: 0px 60px 0px 20px;
+    margin: 0px 0px 0px 50px !important;
+    
   }
   .logos-menu {
     text-align: center;
     list-style: none;
-    
+    margin-left: -10px;
+    margin-top: -52px;
   }
-  .seta {
-    margin-top: 20px;
-    margin-left: 900px;
-  }
-  .ultimos-post {
-    background-color: #f4f4f4;
-    
-  }
+  
    /* carrosel imagens */
-
    .card_dicas_da_semana{
-    width: 1000px;
+    width: 378px;
     margin-top: 350px;
     height: 200px;
    }
@@ -627,10 +725,10 @@ h6 {
   .containe{
     background-color: #f4f4f4;
     position: absolute;
-    width: 999px;
+    width: 390px;
     padding: 25px;
     margin: 0 auto;
-    margin-top: -15px;
+    margin-top: -45px;
   }
   .titulo-card1,.titulo-card2,.titulo-card3,.titulo-card4,.titulo-card5,.titulo-card6{
    text-align: center;
@@ -653,175 +751,14 @@ h6 {
     gap: 15px;
   }
   .arrow-left{
-    width: 60px;
-    margin: -180px 0px 10px 600px;
+    width: 50px;
+    margin: -178px 0px 0px 204px;
     
     
   }
   .arrow-right{
-    width: 60px;
-    margin: -180px 0px 10px 550px;
-    
-  }
-}
-
-/*   Tablet    */
-@media (min-width: 1100px) and (max-width: 1200px)  {
-  .boby { 
-    margin: 0px;
-    padding: 0px;
-  }
-  .navbar-toggler{
-    margin-top: 15px;
-  }
-  .navbar {
-    background-color: #fff;
-  }
-  .navbar-toggler {
-    margin-top: -10px;
-  }
-  .nav-item {
-    align-items: center;
-  }
-
-  .card-text {
-    font-family: "EB Garamond", serif !important;
-  }
-  .title {
-    color: #070707;
-    font-family: "IBM Plex Sans", sans-serif;
-    font-size: 26px;
-    font-weight: normal;
-    margin-top: -110px;
-    margin-left: 10px;
-    font-family: "Source Serif 4", serif;
-  }
-  .link-artigos {
-    margin: -50px 0px 0px -10px;
-    text-decoration: none;
-  }
-  .link-artigos > a {
-    margin-left: 15px;
-    text-decoration: none;
-    font-family: "Source Serif 4", serif;
-  }
-  .link-tendencias > a {
-    margin-left: 15px;
-    text-decoration: none;
-  }
-  .ultimos-post {
-    background-color: #f4f4f4;
-    
-  }
-  .text-center {
-    background-color: #eae0db;
-    margin-top: -102px;
-  }
-  .texto-contato {
-    margin: 54px 190px -70px 20px;
-    text-align: left;
-    align-items: center;
-    color: #8e1e1e;
-    font-size: 63px;
-    font-family: "Ogg", serif;
-  }
-  .form {
-   border: none;
-    font-size: 12px;
-    margin-top: 0px;
-    margin-left: 550px;
-    width: 300px;
-    height: 40px;
-    border-radius: 1px;
-  }
-  
-  /* imagens */
-
-  .img-top{
-    margin-top: 35px;
-  }
-  .logo-Guta {
-    width: 180px;
-    margin-left: -20px !important;
-    margin: 0px 210px 0px 20px;
-  }
-  .logos-menu {
-    text-align: center;
-    list-style: none;
-    
-  }
-  .seta {
-    margin-top: 20px;
-    margin-left: 1150px;
-  }
-  .ultimos-post {
-    background-color: #f4f4f4;
-    
-  }
-   /* carrosel imagens */
-   .card_dicas_da_semana{
-    width: 1000px;
-    margin-top: 420px;
-    height: 200px;
-   }
-
-  .cards{
-    width: 310px;
-    position:static;
-    display: inline-block;
-    flex-shrink: 0;
-    
-  }
-  .item{
-    position: relative;
-    width: 308px;
-    height: 310px;
-    flex-shrink: 0;
-    transition: all 600ms ease-in-out;
-    display: inline-block; 
-    
-  }
-
-  .current-item{
-    opacity: 1;
-  }
-  .containe{
-    background-color: #f4f4f4;
-    position: absolute;
-    width: 1274px;
-    padding: 25px;
-    margin: 0 auto;
-    margin-top: 25px;
-  }
-  .titulo-card1,.titulo-card2,.titulo-card3,.titulo-card4,.titulo-card5,.titulo-card6{
-   text-align: center;
-  }
-  .gallery-wrapper::-webkit-scrollbar{
-    display: none;
-  }
-  .gallery-wrapper{
-    overflow-x: 0 auto;
-    overflow-y: hidden;
-    margin-top: 100px;
-    width: 100%;
-    z-index: 0;
-    scroll-behavior: smooth;
-    margin-top: 30px;
-  }
-  .gallery{
-    display: flex;
-    flex-flow: row nowrap;
-    gap: 15px;
-  }
-  .arrow-left{
-    width: 60px;
-    margin: -180px 0px 10px 780px;
-    
-    
-  }
-  .arrow-right{
-    width: 60px;
-    margin: -180px 0px 10px 710px;
+    width: 50px;
+    margin: -178px 0px 0px 150px;
     
   }
 }
