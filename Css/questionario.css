@@ -1,0 +1,97 @@
+@import url('../Css/styles-android.css');
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #ffffff;
+    padding: 50px;
+}
+.title-one{
+    align-items: center;
+    
+    margin-left: 780px;
+}
+.container {
+    background-color: #e2dede;
+    padding: 20px;
+    border-radius: 10px;
+    display: inline-block;
+    text-align: left;
+    width: 60%;
+    align-items: center;
+   
+}
+.question {
+    display: none;
+    margin-left: 20px;
+}
+.resultado{
+    border-radius: 2px;
+}
+.question.active {
+    display: block;
+}
+.question h2, .question p {
+    text-align: center;
+}
+.container-box{
+    background-color: #ffffff;
+    
+}
+.container-center{
+    margin-left: 20px;
+}
+.perguntas{
+    margin-left: 40px;
+}
+.btn{
+    margin-left: 40px;
+}
+
+@media ( min-width: 390px) and (max-width:450px){
+    .title-one{
+        align-items: center;
+        
+        margin-left: 72px;
+    }
+    .container {
+        background-color: #e2dede;
+        padding: 20px;
+        border-radius: 10px;
+        display: inline-block;
+        text-align: left;
+        
+        align-items: center;
+       
+    }
+    .question {
+        display: none;
+        margin-left: 20px;
+    }
+    .resultado{
+        border-radius: 8px;
+    }
+    .question.active {
+        display: block;
+    }
+    .question h2, .question p {
+        text-align: center;
+    }
+    .container-box{
+        background-color: #ffffff;
+        
+        
+    }
+    .container-center{
+        margin-left: -44px;
+        
+        width: 380px;
+    }
+    .perguntas{
+        margin-left: 10px;
+    }
+    .btn{
+        margin-left: 20px;
+    }
+}
+    
