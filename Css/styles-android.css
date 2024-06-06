@@ -1,4 +1,3 @@
-
 :root {
   --Cor-de-fundo: #fff;
   --tamanho-da-letra: 18px;
@@ -6,10 +5,12 @@
   --fonte-da-letras: "Ogg", serif;
   --tamanho-de-titulo: 45px;
 }
+
 * {
   margin: 0;
   padding: 0;
 }
+
 h1,
 h2,
 h3,
@@ -19,40 +20,46 @@ h6 {
   font-weight: 200;
   margin-top: 5px;
 }
-.linha-titulo{
-width: 350px;
+
+.linha-titulo {
+  width: 350px;
 }
 
-.nav-menu{
+.nav-menu {
   list-style: none;
- margin-left: 350px;
+  margin-left: 350px;
 }
+
 .navbar {
   background: #ffffff !important;
 }
-.nav-item > a {
+
+.nav-item>a {
   align-items: end;
   font-family: "Ogg", serif;
   font-size: 22px;
 }
+
 .nav-link {
   margin: 0px 20px 0px 0px;
   align-items: center;
 }
-.nav-link:hover{
+
+.nav-link:hover {
   transform: scale(1.1);
 }
 
-.ultimos-post {
-  background-color: #f4f4f4;
-  padding: 95px 0;
- 
-}
 .card-text {
   font-family: "EB Garamond", serif !important;
   font-size: 22px;
   color: #070707;
 }
+
+.card-text2 {
+  color: #000000;
+  font-size: 22px;
+}
+
 .title {
   color: #070707;
   font-family: "IBM Plex Sans", sans-serif;
@@ -62,205 +69,101 @@ width: 350px;
   font-family: "Source Serif 4", serif;
   margin-left: 50px;
 }
-.links{
+
+.links {
   text-decoration: none;
 }
-.link-tendencias {
-  text-decoration: none;
-}
-.link-artigos {
-  margin: -50px 200px 0px 1780px;
-  text-decoration: none;
-}
-.link-artigos > a {
-  
-  text-decoration: none;
-  font-family: "Source Serif 4", serif;
-}
-.link-tendencias > a {
-  text-decoration: none;
-}
-.text-center {
-  background-color: #eae0db;
-  height: 250px;
-  margin-top: -102px;
-}
-.texto-contato {
-  margin: 54px 0px 0px 50px;
-  text-align: left;
-  align-items: center;
-  color: #8e1e1e;
-  font-size: 83px;
-  font-family: "Ogg", serif;
-  line-height: 90%;
-  padding-block: 1px;
-  padding-inline: 2px;
-}
-.form {
-  padding-block: 1px;
-  padding-inline: 2px;
-  border-width: 1px;
-  border-style: inset;
-  font-size: 12px;
-  margin-top: 50px;
-  margin-left: 250px;
-  width: 100%;
-  height: 60px;
-}
-.text-depoimento{
-  color: #747474;
-  background-color: #f6f6f6;
-  
-}
-.text-depo{
-  background-color:#fff;
+
+.text-depo {
+  background-color: #fff;
   font-size: 22px;
   margin-top: 190px;
 }
-.comment-card {
-  border: 1px solid #ccc;
-  border-radius: 8px;
-  padding: 20px;
-  margin-bottom: 20px;
-  overflow: hidden;
+
+.comment-details {
+  color: #0c0c0c;
+  margin-top: 20px;
+  background-color: #d6d6d6;
 }
-.comment-card img {
-  width: 80px;
-  height: 250px;
-  border-radius: 50%;
-  float: left;
-  margin-right: 6px;
+
+.titulo-card1,
+.titulo-card2,
+.titulo-card3,
+.titulo-card4,
+.titulo-card5,
+.titulo-card6,
+.titulo-card7 {
+  text-align: center;
 }
-.comment-card .comment-details {
-  overflow: hidden;
+.text-email{
+  margin-left: 650px;
+  margin-top: 150px;
+  
 }
-.comment-card .comment-details h3 {
-  margin-top: 0;
+.footer{
+  background-color: #000000;
+  color:#ffffff;
+  margin-top: 90px;
+  
+}
+.words{
+  margin-left: 650px;
 }
 /* imagens */
 .logo-Guta {
   width: 280px;
   margin: 10px 0px 0px 100px;
 }
+
 .logos-menu {
   text-align: center;
   list-style: none;
   width: 240px;
-  
+
 }
-.img-top{
-  width:1550px;
+
+.img-top {
+  width: 1550px;
   height: 100%;
   border-radius: 4px;
- 
+
 }
 
- /* carrosel imagens */
+.card {
+  border: none;
 
-.item{
-  width: 350px;
-  height: 350px;
-  flex-shrink: 0;
-  transition: all 600ms ease-in-out;
-  display: inline-block; 
 }
-.current-item{
-  opacity: 1;
-}
-.cards{
- 
-  margin: 0px 20px 0px 150px;
-  display: inline-block;
-  align-items: center;
-  
-}
-.containerr{
-  margin-top: 450px;
-  width: 1870px;
 
-  margin: 0 auto;
-  background-color: #fff;
-}
-.titulo-card1,.titulo-card2,.titulo-card3,.titulo-card4,.titulo-card5,.titulo-card6,.titulo-card7{
- text-align: center;
-}
-/* curvas */
-/*------------------- using another momente
-.gallery-wrapper::-webkit-scrollbar{
-  display: none;
-}
-.gallery-wrapper{
-  overflow-x: 0 auto;
-  overflow-y: hidden;
+.containerr {
   margin-top: 100px;
-  width: 100%;
-  z-index: 0;
-  scroll-behavior: smooth;
-}
-.gallery{
-  display: flex;
-  flex-flow: row nowrap;
-  gap: 25px;
-}
-.arrow-left{
-  margin: -320px 0px 0px 1170px;
-  width: 70px;
-  
-}
-.arrow-right{
-  margin: -320px 0px 0px 1100px;
-  width: 70px;
-  
+  background-color: #fff;
+  margin-left: 270px;
 
 }
-.seta {
-  -webkit-transition: all 1s ease;  Safari and Chrome 
-  -moz-transition: all 1s ease;  Firefox 
-  -ms-transition: all 1s ease;  IE 9 
-  -o-transition: all 1s ease;  Opera 
-  transition: all 1s ease;
-  
-}
-.seta:hover {
-  -webkit-transform: scale(1.26);  Safari and Chrome 
-  -moz-transform: scale(1.26);  Firefox *
-  -ms-transform: scale(1.26);  IE 9
-  -o-transform: scale(1.26);  Opera 
-  transform: scale(1.26);
-}
-.img {
-  -webkit-transition: all 1s ease; Safari and Chrome 
-  -moz-transition: all 1s ease;  Firefox 
-  -ms-transition: all 1s ease;  IE 9 
-  -o-transition: all 1s ease;  Opera 
-  transition: all 1s ease;
-}
-.img:hover {
-  -webkit-transform: scale(1.26); Safari and Chrome 
-  -moz-transform: scale(1.26);  Firefox 
-  -ms-transform: scale(1.26); IE 9 
-  -o-transform: scale(1.26);  Opera 
-  transform: scale(1.26);
-}
----------------------
 
-*/
+.img-smart2 {
+  margin-top: -40px;
 
+}
 
-@media (min-width:930px) and (max-width: 1030px)  {
-  .boby { 
+/* Resoluções */
+
+@media (min-width:930px) and (max-width: 1030px) {
+  .boby {
     margin: 0px;
     padding: 0px;
   }
-  .navbar-toggler{
+
+  .navbar-toggler {
     margin-top: 15px;
-    
+
   }
+
   .navbar {
     background-color: #fff;
-    
+
   }
-  
+
   .nav-item {
     align-items: center;
   }
@@ -268,6 +171,7 @@ width: 350px;
   .card-text {
     font-family: "EB Garamond", serif !important;
   }
+
   .title {
     color: #070707;
     font-family: "IBM Plex Sans", sans-serif;
@@ -277,27 +181,12 @@ width: 350px;
     margin-left: 10px;
     font-family: "Source Serif 4", serif;
   }
-  .link-artigos {
-    margin: -50px 0px 0px -10px;
-    text-decoration: none;
-  }
-  .link-artigos > a {
-    margin-left: 15px;
-    text-decoration: none;
-    font-family: "Source Serif 4", serif;
-  }
-  .link-tendencias > a {
-    margin-left: 15px;
-    text-decoration: none;
-  }
-  .ultimos-post {
-    background-color: #f4f4f4;
-    
-  }
+
   .text-center {
     background-color: #eae0db;
     margin-top: -102px;
   }
+
   .texto-contato {
     margin: 54px 190px -70px 20px;
     text-align: left;
@@ -306,8 +195,9 @@ width: 350px;
     font-size: 63px;
     font-family: "Ogg", serif;
   }
+
   .form {
-   border: none;
+    border: none;
     font-size: 12px;
     margin-top: -10px;
     margin-left: 350px;
@@ -315,58 +205,66 @@ width: 350px;
     height: 40px;
     border-radius: 1px;
   }
-  
+
   /* imagens */
 
-  .img-top{
-    margin-top: 35px;
+  .img-top {
+    margin-top: 25px;
   }
+
   .logo-Guta {
     width: 130px;
     margin: -110px 0px -100px 20px !important;
-    
+
   }
+
   .logos-menu {
     text-align: center;
     list-style: none;
-    
+
   }
+
   .seta {
     margin-top: 20px;
     margin-left: 600px;
   }
+
   .ultimos-post {
     background-color: #f4f4f4;
-    
-  }
-   /* carrosel imagens */
 
-   .card_dicas_da_semana{
+  }
+
+  /* carrosel imagens */
+
+  .card_dicas_da_semana {
     width: 1000px;
     margin-top: 350px;
     height: 200px;
-   }
-  .cards{
+  }
+
+  .cards {
     width: 310px;
-    position:static;
+    position: static;
     display: inline-block;
     flex-shrink: 0;
-    
+
   }
-  .item{
+
+  .item {
     position: relative;
     width: 308px;
     height: 310px;
     flex-shrink: 0;
     transition: all 600ms ease-in-out;
-    display: inline-block; 
-    
+    display: inline-block;
+
   }
 
-  .current-item{
+  .current-item {
     opacity: 1;
   }
-  .containe{
+
+  .containe {
     background-color: #f4f4f4;
     position: absolute;
     width: 1000px;
@@ -374,13 +272,25 @@ width: 350px;
     margin: 0 auto;
     margin-top: -15px;
   }
-  .titulo-card1,.titulo-card2,.titulo-card3,.titulo-card4,.titulo-card5,.titulo-card6{
-   text-align: center;
+
+  .containeer {
+    width: 35px;
   }
-  .gallery-wrapper::-webkit-scrollbar{
+
+  .titulo-card1,
+  .titulo-card2,
+  .titulo-card3,
+  .titulo-card4,
+  .titulo-card5,
+  .titulo-card6 {
+    text-align: center;
+  }
+
+  .gallery-wrapper::-webkit-scrollbar {
     display: none;
   }
-  .gallery-wrapper{
+
+  .gallery-wrapper {
     overflow-x: 0 auto;
     overflow-y: hidden;
     margin-top: 100px;
@@ -389,24 +299,27 @@ width: 350px;
     scroll-behavior: smooth;
     margin-top: 30px;
   }
-  .gallery{
+
+  .gallery {
     display: flex;
     flex-flow: row nowrap;
     gap: 15px;
   }
-  .arrow-left{
+
+  .arrow-left {
     width: 60px;
     margin: -180px 0px 10px 450px;
-    
-    
-  }
-  .arrow-right{
-    width: 60px;
-    margin: -180px 0px 10px 380px;
-    
+
+
   }
 
-  .dicaSemana{
+  .arrow-right {
+    width: 60px;
+    margin: -180px 0px 10px 380px;
+
+  }
+
+  .dicaSemana {
     margin-top: 0px;
     width: 350px;
   }
@@ -414,34 +327,41 @@ width: 350px;
 
 /* ipad mini */
 @media (min-width:700px) and (max-width:900px) {
-  .boby { 
+  .boby {
     margin: 0px;
     padding: 0px;
   }
-  .nav-menu{
+
+  .nav-menu {
     list-style: none;
     position: relative;
     padding: 0;
     margin: 0;
-   text-align: left;
+    text-align: left;
   }
-  .navbar-toggler{
-   margin-left: -400;
-    
+
+  .navbar-toggler {
+    margin-left: -400;
+
   }
+
   .navbar {
     background-color: #fff;
   }
+
   .nav-item {
     margin: 10px 0px 0px 0px;
-   
+
   }
-.container-fluid{
-  align-items: center;
-}
+
+  .container-fluid {
+    align-items: center;
+  }
+
   .card-text {
     font-family: "EB Garamond", serif !important;
   }
+
   .title {
     color: #070707;
     font-family: "IBM Plex Sans", sans-serif;
@@ -451,27 +371,33 @@ width: 350px;
     margin-left: 10px;
     font-family: "Source Serif 4", serif;
   }
+
   .link-artigos {
     margin: -50px 0px 0px -10px;
     text-decoration: none;
   }
-  .link-artigos > a {
+
+  .link-artigos>a {
     margin-left: 15px;
     text-decoration: none;
     font-family: "Source Serif 4", serif;
   }
-  .link-tendencias > a {
+
+  .link-tendencias>a {
     margin-left: 15px;
     text-decoration: none;
   }
+
   .ultimos-post {
     background-color: #f4f4f4;
-    
+
   }
+
   .text-center {
     background-color: #eae0db;
     margin-top: -102px;
   }
+
   .texto-contato {
     margin: 34px 0px 0px 29px;
     text-align: left;
@@ -480,6 +406,7 @@ width: 350px;
     font-size: 63px;
     font-family: "Ogg", serif;
   }
+
   .form {
     padding-block: 1px;
     padding-inline: 2px;
@@ -492,53 +419,60 @@ width: 350px;
     height: 30px;
     border-radius: 1px;
   }
-  
+
   /* imagens */
 
-  .img-top{
+  .img-top {
     margin-top: 35px;
   }
+
   .logo-Guta {
     width: 180px;
-   margin-left: 50px;
+    margin-left: 50px;
     margin-top: 20px;
   }
+
   .logos-menu {
     text-align: center;
     list-style: none;
     margin-left: -30px;
   }
+
   .seta {
-    
+
     margin-top: 20px;
     margin-left: 620px;
   }
+
   .ultimos-post {
     background-color: #f4f4f4;
-    
+
   }
-   /* carrosel imagens */
-  .cards{
+
+  /* carrosel imagens */
+  .cards {
     width: 310px;
-    position:static;
+    position: static;
     display: inline-block;
     flex-shrink: 0;
-    
+
   }
-  .item{
+
+  .item {
     position: relative;
     width: 308px;
     height: 310px;
     flex-shrink: 0;
     transition: all 600ms ease-in-out;
-    display: inline-block; 
-    
+    display: inline-block;
+
   }
 
-  .current-item{
+  .current-item {
     opacity: 1;
   }
-  .containe{
+
+  .containe {
     background-color: #f4f4f4;
     position: absolute;
     width: 750px;
@@ -546,14 +480,22 @@ width: 350px;
     margin: 0 auto;
     margin-top: -15px;
   }
-  .titulo-card1,.titulo-card2,.titulo-card3,.titulo-card4,.titulo-card5,.titulo-card6,.titulo-card7{
-   text-align: center;
+
+  .titulo-card1,
+  .titulo-card2,
+  .titulo-card3,
+  .titulo-card4,
+  .titulo-card5,
+  .titulo-card6,
+  .titulo-card7 {
+    text-align: center;
   }
-  
-  .gallery-wrapper::-webkit-scrollbar{
+
+  .gallery-wrapper::-webkit-scrollbar {
     display: none;
   }
-  .gallery-wrapper{
+
+  .gallery-wrapper {
     overflow-x: 0 auto;
     overflow-y: hidden;
     margin-top: 100px;
@@ -562,50 +504,58 @@ width: 350px;
     scroll-behavior: smooth;
     margin-top: 30px;
   }
-  .gallery{
+
+  .gallery {
     display: flex;
     flex-flow: row nowrap;
     gap: 15px;
   }
-  .arrow-left{
+
+  .arrow-left {
     width: 70px;
     margin: -190px 0px 0px 430px;
-    
-    
+
+
   }
-  .arrow-right{
+
+  .arrow-right {
     width: 70px;
     margin: -190px 0px 0px 350px;
-    
+
   }
-  .dicaSemana{
+
+  .dicaSemana {
     margin-top: 400px;
     width: 750px;
 
   }
 }
 
-@media (min-width:350px) and (max-width: 460px){
+@media (min-width:350px) and (max-width: 460px) {
 
-  .boby { 
+  .boby {
     margin: 0px;
     padding: 0px;
   }
-  .nav-menu{
+
+  .nav-menu {
     list-style: none;
     position: relative;
     padding: 0;
     margin: 0;
-   text-align: left;
+    text-align: left;
   }
+
   .navbar {
     background-color: #fff;
   }
+
   .navbar-toggler {
-    
+
     margin-top: -20px;
-   
+
   }
+
   .nav-item {
     margin: 10px 0px 0px 0px;
   }
@@ -613,6 +563,16 @@ width: 350px;
   .card-text {
     font-family: "EB Garamond", serif !important;
   }
+
+  .titulo-card1,
+  .titulo-card2,
+  .titulo-card3,
+  .titulo-card4,
+  .titulo-card5,
+  .titulo-card6 {
+    text-align: center;
+  }
+
   .title {
     color: #070707;
     font-family: "IBM Plex Sans", sans-serif;
@@ -622,143 +582,99 @@ width: 350px;
     margin-left: 10px;
     font-family: "Source Serif 4", serif;
   }
-  .link-artigos {
-    margin: -50px 0px 0px -10px;
-    text-decoration: none;
+
+  .text-depo {
+    margin-top: -78px;
   }
-  .link-artigos > a {
-    margin-left: 15px;
-    text-decoration: none;
-    font-family: "Source Serif 4", serif;
+
+  .comment-details {
+    margin-top: -10px;
+    font-size: 14px;
+    color: #000000;
+
   }
-  .link-tendencias > a {
-    margin-left: 15px;
-    text-decoration: none;
+
+  .linha-titulo {
+    width: 40px;
+
   }
-  .ultimos-post {
-    background-color: #f4f4f4;
+
+  .containerr {
+    background-color: #fff;
+    margin-top: -20px;
+    width: 20px;
+    margin-left: 52px
+  }
+
+  .card-text {
+    margin-left: -180px;
+    font-size: 16px;
+  }
+
+  .card-text2 {
+    font-size: 16px;
+    margin-left: 175px;
+    margin-top: -100px;
+
+  }
+   .text-email{
+    margin-left: 30px;
     
+   }
+  .footer{
+    padding: auto;
+    height: 25px;
+    margin-left: -650px;
   }
-  .text-center {
-    background-color: #eae0db;
-    margin-top: -102px;
-  }
-  .texto-contato {
-    margin: 34px 0px 0px 5px;
-    text-align: left;
-    align-items: center;
-    color: #8e1e1e;
-    font-size: 63px;
-    font-family: "Ogg", serif;
-  }
-  .form {
-    padding-block: 1px;
-    padding-inline: 2px;
-    border-width: 1px;
-    border-style: inset;
-    font-size: 12px;
-    margin-top: 10px;
-    margin-left: -10px;
-    width: 260px;
-    height: 30px;
-    border-radius: 1px;
-  }
-  
   /* imagens */
 
-  .img-top{
+  .rounded {
+    width: 150px;
+    margin-left: -20px;
+
+  }
+
+  .img-top {
     margin-top: 35px;
     width: 400px;
     align-items: center;
-    margin-left: -19px;
+    margin-left: -17px;
   }
-  .cards{
-    margin-left: -14px;
-    align-items: center;
-    width: 30px;
+
+  .img-smart {
+
+    width: 9rem;
+    margin-left: -18px;
+
   }
-  .container{
-    align-items: center;
+
+  .img-smart2 {
+
+    width: 8rem;
+    margin-left: 170px;
+    margin-top: -272px;
+
   }
-  .item{
-    width: 30px;
+
+  .img-smar3 {
+
+    width: 8rem;
+    margin-left: 150px;
+
   }
-  
+
   .logo-Guta {
     width: 180px;
-    margin: 0px 0px 0px 50px !important;
-    
+    margin: 10px 0px 0px 160px !important;
+
   }
+
   .logos-menu {
     text-align: center;
     list-style: none;
     margin-left: -10px;
     margin-top: -52px;
   }
-  
-   /* carrosel imagens */
-   .card_dicas_da_semana{
-    width: 378px;
-    margin-top: 350px;
-    height: 200px;
-   }
-  .cards{
-    width: 310px;
-    position:static;
-    display: inline-block;
-    flex-shrink: 0;
-    
-  }
-  .item{
-    position: relative;
-    width: 308px;
-    height: 310px;
-    flex-shrink: 0;
-    transition: all 600ms ease-in-out;
-    display: inline-block; 
-    
-  }
 
-  .current-item{
-    opacity: 1;
-  }
-  .containe{
-    background-color: #f4f4f4;
-    position: absolute;
-    width: 390px;
-    padding: 25px;
-    margin: 0 auto;
-    margin-top: -45px;
-  }
-  .titulo-card1,.titulo-card2,.titulo-card3,.titulo-card4,.titulo-card5,.titulo-card6{
-   text-align: center;
-  }
-  .gallery-wrapper::-webkit-scrollbar{
-    display: none;
-  }
-  .gallery-wrapper{
-    overflow-x: 0 auto;
-    overflow-y: hidden;
-    margin-top: 100px;
-    width: 100%;
-    z-index: 0;
-    scroll-behavior: smooth;
-    margin-top: 30px;
-  }
-  .gallery{
-    display: flex;
-    flex-flow: row nowrap;
-    gap: 15px;
-  }
-  .arrow-left{
-    width: 50px;
-    margin: -178px 0px 0px 204px;
-    
-    
-  }
-  .arrow-right{
-    width: 50px;
-    margin: -178px 0px 0px 150px;
-    
-  }
+
 }

@@ -24,6 +24,7 @@ body {
 .question {
     display: none;
     margin-left: 20px;
+    border: none;
 }
 .resultado{
     border-radius: 2px;
@@ -39,7 +40,7 @@ body {
     
 }
 .container-center{
-    margin-left: 20px;
+    margin-left: 10px;
 }
 .perguntas{
     margin-left: 40px;
@@ -66,7 +67,8 @@ body {
     }
     .question {
         display: none;
-        margin-left: 20px;
+        margin-left: 3px;
+        border: 3px;
     }
     .resultado{
         border-radius: 8px;
