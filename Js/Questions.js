@@ -91,3 +91,6 @@ function restart() {
 //2. A função `showResult` determina o tipo de negócio com base na resposta mais comum usando uma lógica simples.
 //3. O resultado é exibido na última seção.
 //4. A função `restart` redefine o questionário para permitir que o usuário comece novamente.
+
+
+ 
