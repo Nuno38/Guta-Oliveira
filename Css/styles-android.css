@@ -10,142 +10,166 @@
   margin: 0;
   padding: 0;
 }
+#text{
+  font-size: 28px;
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-weight: 200;
-  margin-top: 5px;
 }
-
-.linha-titulo {
-  width: 350px;
+#text2{
+  font-size: 28px;
+color: var(--Cor-de-fundo);
 }
-
-.nav-menu {
-  list-style: none;
-  margin-left: 350px;
+#text3{
+  font-size: 28px;
+color: black;
 }
+#text-box{
+  margin-top: 40px;
 
-.navbar {
-  background: #ffffff !important;
 }
-
-.nav-item>a {
-  align-items: end;
-  font-family: "Ogg", serif;
-  font-size: 22px;
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-
-.nav-link {
-  margin: 0px 20px 0px 0px;
-  align-items: center;
+.header {
+  position: relative;
+  text-align: left;
 }
-
-.nav-link:hover {
-  transform: scale(1.1);
+.header img.background {
+  width: 100%;
+  height:  650px;
+  opacity: 95%;
+  transition: opacity 0.3s ease;
+  
 }
-
-.card-text {
-  font-family: "EB Garamond", serif !important;
-  font-size: 22px;
-  color: #070707;
+.header img.overlay {
+  position: absolute;
+  top: 50%;
+  left: 15%;
+  transform: translate(-50%, -50%);
+  max-width: 430px;
+  height: auto;
+  opacity: 62%;
 }
-
-.card-text2 {
-  color: #000000;
-  font-size: 22px;
+.header .text-content {
+  position: absolute;
+  top: 50%;
+  left: 65%;
+  transform: translateY(-50%);
+  color: #fff;
 }
-
-.title {
-  color: #070707;
-  font-family: "IBM Plex Sans", sans-serif;
-  font-size: 26px;
-  font-weight: normal;
-  margin-top: -80px;
-  font-family: "Source Serif 4", serif;
-  margin-left: 50px;
+.header h2 {
+  font-size: 2em;
+  margin: 0;
 }
-
-.links {
-  text-decoration: none;
+.header p {
+  font-size: 1em;
+  margin: 10px 0;
 }
-
-.text-depo {
-  background-color: #fff;
-  font-size: 22px;
-  margin-top: 190px;
+.header button {
+  padding: 10px 10px;
+  font-size: 1em;
+  cursor: pointer;
 }
-
-.comment-details {
-  color: #0c0c0c;
-  margin-top: 20px;
-  background-color: #d6d6d6;
+.card-section {
+  
+  background-color: #C68054;
+  text-align: center;
+  padding: 90px 0;
 }
-
-.titulo-card1,
-.titulo-card2,
-.titulo-card3,
-.titulo-card4,
-.titulo-card5,
-.titulo-card6,
-.titulo-card7 {
+.card-section2 {
+  margin-top: 130px;
+  background-color: #3b3939;
+  text-align: center;
+  padding: 90px 0;
+}
+.card-section3 {
+  
+  background-color: #EDD1AE;
+  text-align: center;
+  padding: 90px 0;
+}
+.card {
+  display: inline-block;
+  width: 300px;
+  margin: 0 auto;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 20px;
+}
+.card h2 {
+  margin: 0 0 10px 0;
+}
+.card img {
+  width: 100%;
+  border-radius: 10px;
+}
+#card-image2{
+  width: 40%;
+  border-radius: 10px;
+}
+.card button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  font-size: 1em;
+  cursor: pointer;
+}
+.test-section, .description-section {
+  margin-top: 100px;
+  padding: 30px 20px;
   text-align: center;
 }
-.text-email{
-  margin-left: 650px;
-  margin-top: 150px;
-  
+.description-section .box{
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  margin: 20px;
+  padding: 10px;
+  border: 1px solid #997676;
+  background-color: #000000;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  color:var(--Cor-de-fundo);
+}
+
+.description-testes{
+  display: inline-block;
+  width: 100%;
+  height: auto;
+  margin: 20px;
+  padding: 0px;
+  border: 1px solid #fcf9f9;
+  background-color: #4f2c1d;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(221, 220, 220, 0.1);
+  color:var(--Cor-de-fundo);
+}
+#linha{
+  width: 150px;
+  color: #4f2c1d;
+}
+#linha-orcamento{
+  width: 880px;
+  align-items: center;
+  margin-left: 300px;
+  height: 4px;
+  color: #000000;
+}
+
+#bnt{
+  background-color: #C68054;
+
 }
 .footer{
-  background-color: #000000;
-  color:#ffffff;
-  margin-top: 90px;
-  
-}
-.words{
-  margin-left: 650px;
-}
-/* imagens */
-.logo-Guta {
-  width: 280px;
-  margin: 10px 0px 0px 100px;
-}
-
-.logos-menu {
+  margin-top: 15px;
+  padding: -10px;
+  align-items: center;
   text-align: center;
-  list-style: none;
-  width: 240px;
-
+  color: #faf7f7;
+  background-color: #000000;
+  font-size: 14px;
 }
-
-.img-top {
-  width: 1550px;
-  height: 100%;
-  border-radius: 4px;
-
-}
-
-.card {
-  border: none;
-
-}
-
-.containerr {
-  margin-top: 100px;
-  background-color: #fff;
-  margin-left: 270px;
-
-}
-
-.img-smart2 {
-  margin-top: -40px;
-
-}
-
 /* Resoluções */
 
 @media (min-width:930px) and (max-width: 1030px) {
