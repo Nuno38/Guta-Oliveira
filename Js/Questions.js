@@ -28,7 +28,7 @@ function showResult() {
         let resultText;
         switch (mostCommonAnswer) {
             case 'A':
-                resultText = " Envolvente e Magnético.";
+                resultText = "Seu perfil é!"+"\n"+"\nAmante.";
                 break;
             case 'B':
                 resultText = " Realista e Coletivo.";
