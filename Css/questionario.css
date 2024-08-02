@@ -3,13 +3,18 @@
 body {
     font-family: Arial, sans-serif;
     text-align: center;
-    background-color: #ffffff;
+    background-color: #EDD1AE;
     padding: 50px;
+    opacity: 97%;
 }
 .title-one{
     align-items: center;
-    
-    margin-left: 780px;
+    margin-top: 44px;
+       
+}
+.container-center{
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 16px;
 }
 .container {
     background-color: #e2dede;
@@ -19,6 +24,7 @@ body {
     text-align: left;
     width: 60%;
     align-items: center;
+   
    
 }
 .question {
@@ -50,14 +56,14 @@ body {
 }
 
 @media ( min-width: 390px) and (max-width:450px){
+
     .title-one{
         align-items: center;
-        
-        margin-left: 72px;
     }
     .container {
+        
         background-color: #e2dede;
-        padding: 20px;
+        padding: 30px;
         border-radius: 10px;
         display: inline-block;
         text-align: left;
@@ -66,8 +72,9 @@ body {
        
     }
     .question {
+        
         display: none;
-        margin-left: 3px;
+        margin-left: 13px;
         border: 3px;
     }
     .resultado{
@@ -75,6 +82,7 @@ body {
     }
     .question.active {
         display: block;
+        align-items: center;
     }
     .question h2, .question p {
         text-align: center;
@@ -86,7 +94,6 @@ body {
     }
     .container-center{
         margin-left: -44px;
-        
         width: 380px;
     }
     .perguntas{
@@ -96,4 +103,52 @@ body {
         margin-left: 20px;
     }
 }
-    
+
+@media ( min-width: 420px) and (max-width:490px){
+
+    .title-one{
+        align-items: center;
+    }
+    .container {
+        
+        background-color: #e2dede;
+        padding: 30px;
+        border-radius: 10px;
+        display: inline-block;
+        text-align: left;
+        
+        align-items: center;
+       
+    }
+    .question {
+        
+        display: none;
+        margin-left: 8px;
+        border: 3px;
+    }
+    .resultado{
+        border-radius: 8px;
+    }
+    .question.active {
+        display: block;
+        align-items: center;
+    }
+    .question h2, .question p {
+        text-align: center;
+    }
+    .container-box{
+        background-color: #ffffff;
+        
+        
+    }
+    .container-center{
+        margin-left: -44px;
+        width: 420px;
+    }
+    .perguntas{
+        margin-left: 10px;
+    }
+    .btn{
+        margin-left: 20px;
+    }
+}   
