@@ -666,6 +666,221 @@ body {
 
 }
 
+ /* Iphone 10 a 13 Pro max  */
+@media (min-width:375px) and (max-width: 926px) {
+  
+  .header {
+    position: relative;
+    text-align: left;
+  
+    .text-content {
+      position: absolute;
+      top: 75%;
+      left: 15%;
+      transform: translateY(-50%);
+      color: #fff;
+    }
+    
+    .background {
+      width: 100%;
+      height: 650px;
+      opacity: 95%;
+      transition: opacity 0.3s ease;
+    
+    }
+  
+    .overlay {
+      position: absolute;
+      top: 50%;
+      left: 15%;
+      transform: translate(-50%, -50%);
+      max-width: 430px;
+      height: auto;
+      opacity: 62%;
+    }
+    
+    .h2 {
+      font-size: 2em;
+      margin: 0;
+    }
+    
+    .p {
+      font-size: 1em;
+      margin: 10px 0;
+    }
+    
+    .button {
+      padding: 10px 10px;
+      font-size: 1em;
+      cursor: pointer;
+      margin-left: -10px;
+    }
+  }
+
+  .card-section {
+    
+    text-align: center;
+    padding: 90px 0;
+  
+    .card {
+      display: inline-block;
+      width: 300px;
+      margin: 0 auto;
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      padding: 20px;
+    }
+  
+    #text {
+      font-size: 28px;
+  
+    }
+
+    .card img {
+      width: 100%;
+      border-radius: 10px;
+    }
+  
+  }
+  
+  .card-section2 {
+    text-align: center;
+    background-color: #3b3939;
+    padding: 3%;
+  
+    #text2 {
+      font-size: 28px;
+      color: var(--Cor-de-fundo);
+      margin-left: 0px;
+    }
+  
+    #text3 {
+      font-size: 28px;
+      color: var(--Cor-de-fundo);
+      margin-right: 0px;
+      margin-top: 5px;
+    }
+  
+    .col {
+      margin-left: 0%;
+      margin-top: 80px;
+    }
+  
+    #btn1 {
+      margin-left: 10px;
+      margin-top: -680px;
+    }
+  
+    #btn2 {
+      margin-left: 0px;
+      margin-top: -8px;
+    }
+  }
+  
+  .card-section3 {
+    
+    text-align: center;
+    padding: 90px 0;
+  
+    #text3 {
+      font-size: 28px;
+      color: black;
+    }
+  
+    #text-box {
+      margin-top: 40px;
+      color: dark;
+  
+    }
+  
+    #linha-orcamento {
+      width: 180px;
+      align-items: center;
+      margin-left: 120px;
+      height: 4px;
+      color: #000000;
+    }
+  
+    .text-zap {
+      margin-top: 135px;
+      margin-left: -60px;
+    }
+  
+    #call-whats {
+      font-size: 15px;
+    }
+  
+    #sub-whats {
+      font-size: 11px;
+    }
+  
+    #img-whatsapp {
+      width: 65px;
+      margin-top: -105px;
+      margin-left: 380px;
+    }
+  
+  }
+  
+  .test-section,
+  .description-section {
+    margin-top: 20px;
+    padding: 20px 20px;
+    text-align: center;
+  
+    #linha {
+      width: 150px;
+      color: #4f2c1d;
+    }
+  
+  }
+  
+  .description-section .box {
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #997676;
+    background-color: #000000;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: var(--Cor-de-fundo);
+  
+  
+  }
+  
+  .description-testes {
+    display: inline-block;
+    width: 100%;
+    height: auto;
+    margin: 20px;
+    padding: 0px;
+    border: 1px solid #fcf9f9;
+    background-color: #4f2c1d;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(221, 220, 220, 0.1);
+    color: var(--Cor-de-fundo);
+  }
+  
+  #bnt {
+    color: white;
+    text-decoration: none;
+  
+  }
+  
+  .footer {
+    background-color: var(--cor-do-footer);
+    color: var(--color-light);
+    text-align: center;
+    
+  }
+  
+  .footer__text {
+    font-size: var(--font-size-small);
+  }
+
+}
 
 @media (min-width:350px) and (max-width: 460px) {
   
